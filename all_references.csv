@@ -1,0 +1,48 @@
+id,title,author,company,type,date,url
+1,Part 1 — The Five Evaluation Gaps Killing Your Agentic AI in Production,Nitika Bhatia,Independent,Blog Post,"Oct 22, 2025",https://medium.com/@nitikab23/the-five-evaluation-gaps-killing-your-agentic-ai-in-production-6796cae4a0a1
+2,Part 2 — Solving the Distribution Mismatch: Make Your Eval Actually Predict Production,Nitika Bhatia,Independent,Blog Post,Nov 2025,https://medium.com/@nitikab23/part-2-evaluating-agentic-ai-systems-the-complete-framework-55ceaf86c406
+3,Part 3 — Solving Coordination Failures: Why 92% × 88% × 85% ≠ System Success,Nitika Bhatia,Independent,Blog Post,Nov 2025,https://medium.com/@nitikab23/part-3-evaluating-agentic-ai-systems-the-complete-framework-14906cf0ecff
+4,Part 4 — Solving Quality Assessment at Scale: When Perfect Is the Enemy of Good,Nitika Bhatia,Independent,Blog Post,Nov 2025,https://medium.com/@nitikab23/part-4-evaluating-agentic-ai-systems-the-complete-framework-3173374543cf
+5,Part 5 — Solving Root Cause Diagnosis,TrueFoundry Team,TrueFoundry,Blog Post,2025,https://medium.com/@nitikab23/part-5-evaluating-agentic-ai-systems-the-complete-framework-solving-root-cause-diagnosis-24da2980203e
+6,Part 6 — Solving Variance and Non-Determinism,Galileo AI Team,Galileo,Blog Post,2025,https://medium.com/@nitikab23/part-6-evaluating-agentic-ai-systems-the-complete-framework-solving-variance-and-non-determinism-8f3b5c3b1e3e
+7,Part 7 — The Complete Evaluation Framework,Langfuse Team,Langfuse,Documentation,2025,https://medium.com/@nitikab23/part-7-evaluating-agentic-ai-systems-the-complete-framework-integration-roadmap-and-production-deployment-7a3b2c1b0d31
+8,Evaluating and Debugging LLMs with W&B Weave,Weights & Biases Team,Weights & Biases,Blog Post,2025,https://docs.wandb.ai/weave/guides/core-types/evaluations
+9,Arize LLM Observability Platform,Arize AI Team,Arize AI,Platform Documentation,2025,https://arize.com/platform/llm-observability
+10,Evaluating LLM Applications with MLflow,MLflow Team,Databricks,Documentation,2024-2025,https://mlflow.org/docs/latest/llm-evaluate/
+11,LangSmith: Debugging and Monitoring LLM Applications,LangChain Team,LangChain,Platform Documentation,2024-2025,https://docs.langchain.com/langsmith/evaluation
+12,Braintrust: Evals and Monitoring for AI Applications,Braintrust Team,Braintrust,Platform Documentation,2024-2025,https://www.braintrust.dev/docs/core/experiments
+13,RAGAS: Evaluation Framework for Retrieval Augmented Generation,Es et al.,Academic,Research Paper,2023,https://arxiv.org/abs/2309.15217
+14,DeepEval: Evaluation Framework for LLMs,Confident AI Team,Confident AI,Open Source,2024-2025,https://github.com/confident-ai/deepeval
+15,OpenAI Evals: Framework for Evaluating LLMs,OpenAI Team,OpenAI,Open Source,2023-2025,https://github.com/openai/evals
+16,AgentBench: A Benchmark for LLM-as-Agent,Tsinghua University,Academic,Benchmark,2024,https://github.com/THUDM/AgentBench
+17,GAIA: A Benchmark for General AI Assistants,Hugging Face & Partners,Academic/Community,Benchmark,2024,https://huggingface.co/datasets/gaia-benchmark/GAIA
+18,Maxim AI: Evaluation Platform for AI Agents,Maxim AI Team,Maxim AI,Platform,2024-2025,https://www.getmaxim.ai/docs/introduction/overview
+19,Building Reliable AI Agents: The Evaluation Challenge,Google Cloud AI Team,Google Cloud,Blog Post,2024-2025,https://docs.cloud.google.com/agent-builder/agent-engine/overview
+20,Evaluating Agentic AI Systems: Best Practices,Databricks Team,Databricks,Blog Post,2024-2025,https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/
+21,LLM Evaluation Frameworks and Metrics,MLflow Contributors,Databricks,Open Source,2024-2025,https://github.com/mlflow/mlflow
+22,OpenTelemetry: Standardized Observability,CNCF OpenTelemetry Project,Cloud Native Computing Foundation,Standard/Documentation,2024-2025,https://opentelemetry.io/
+23,Evaluating LLMs: A Comprehensive Guide,Anthropic Research Team,Anthropic,Research,2024-2025,https://docs.claude.com/en/docs/test-and-evaluate/eval-tool
+24,Systematic Biases in LLM-as-Judge Evaluation,Jung et al.,Academic,Research Paper,2024,https://arxiv.org/abs/2404.07143
+25,Prompt Engineering for Calibrated LLM Judges,AI Research Community,Community,Blog Post,2024-2025,https://medium.com/ai-research
+26,Evaluation-Driven Development for LLM Applications,MLflow Team,Databricks,Blog Post,2024-2025,https://mlflow.org/blog
+27,Synthetic Data Generation for Evaluation,OpenAI Team,OpenAI,Documentation,2024-2025,https://github.com/openai/evals
+28,Multi-Agent System Evaluation and Coordination,Academic Community,Academic,Research Paper,2024,https://arxiv.org/abs/2408.00289
+29,Memory and Context Management in AI Agents,Academic Community,Academic,Research Paper,2023-2024,https://arxiv.org/abs/2312.11805
+30,Tool Use and Function Calling in LLM Agents,OpenAI Team,OpenAI,Blog Post,2024-2025,https://openai.com/blog
+31,Hallucination Detection and Mitigation,Academic Community,Academic,Research Paper,2023,https://arxiv.org/abs/2309.01219
+32,OpenLLMetry: Open-source Observability for LLMs,Traceloop Team,Traceloop,Open Source,2024-2025,https://github.com/traceloop/openllmetry
+33,Maxim AI: End-to-End Platform for AI Agents,Maxim AI Team,Maxim AI,Platform,2025,https://www.getmaxim.ai/docs/evaluate/overview
+34,LangWatch: Privacy-First LLM Evaluation Platform,LangWatch Team,LangWatch,Platform,2024-2025,https://docs.langwatch.ai/
+35,Openlayer: Comprehensive AI Testing and Monitoring,Openlayer Team,Openlayer,Platform,2024-2025,https://docs.openlayer.com/monitoring/overview
+36,Monte Carlo: Data and AI Observability,Monte Carlo Team,Monte Carlo,Platform,2024-2025,https://docs.getmontecarlo.com/docs/ai-features-and-technical-info
+37,TestGrid CoTester: AI-Powered Test Automation,TestGrid Team,TestGrid,Tool,2024-2025,https://testgrid.io/cotester
+38,testRigor: Generative AI Test Automation,testRigor Team,testRigor,Tool,2024-2025,https://testrigor.com/features/
+39,Helicone: LLM Observability Platform,Helicone Team,Helicone,Platform,2024-2025,https://docs.helicone.ai/
+40,OpenLIT: OpenTelemetry-Native Observability for AI,OpenLIT Team,OpenLIT,Open Source,2024-2025,https://github.com/openlit/openlit
+41,WhyLabs: AI Observability Platform,WhyLabs Team,WhyLabs,Platform,2024-2025,https://docs.whylabs.ai/docs/
+42,Evaluating AI Agents,Yash Thakker,Udemy,Course,2025,https://www.udemy.com/course/evaluating-ai-agents/
+43,LLM evaluations for AI product teams,Elena Samuylova,Evidently AI,Course,2025,https://www.evidentlyai.com/llm-evaluations-course
+44,Evaluating AI Agents,"John Gilhuly, Aman Khan",DeepLearning.AI,Course,2025,https://www.deeplearning.ai/short-courses/evaluating-ai-agents/
+45,LLM evaluations for AI builders,Evidently AI Team,Evidently AI,Course,2025,https://www.evidentlyai.com/courses
+46,AI Evals Certification,Product School,Product School,Course,2025,https://productschool.com/certifications/ai-evals
+47,Evaluating and Debugging Generative AI Models Using Weights and Biases,Carey Phelps,DeepLearning.AI,Course,2025,https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/
