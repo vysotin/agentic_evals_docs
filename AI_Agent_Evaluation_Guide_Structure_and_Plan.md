@@ -195,10 +195,73 @@ Beyond the individual section Markdown files, the following supplementary files 
 
 1. **`00_table_of_contents.md`**: Master table of contents with links to all sections
 2. **`master_references.csv`**: Centralized bibliography in CSV format
-3. **`README.md`**: Guide overview, usage instructions, and navigation
+3. **`README.md`**: Guide overview, usage instructions, and navigation. This file serves as the primary entry point and includes:
+   - Introduction to the guide and its purpose
+   - Complete table of contents with all sections
+   - Short summary (2-3 sentences) for each section
+   - Relative URLs to each section's full content file
+   - Usage instructions and how to navigate the guide
+   - Contributing guidelines (if applicable)
+   - License and attribution information
 4. **`CHANGELOG.md`**: Version history and updates
 5. **`glossary.md`**: Comprehensive glossary of technical terms
 6. **`quick_start_guide.md`**: Condensed quick-reference guide for practitioners
+
+### README.md Structure Template
+
+The README.md file will follow this structure:
+
+```markdown
+# AI Agent Evaluation and Monitoring: A Comprehensive Industry Guide
+
+[Brief introduction paragraph about the guide's purpose and scope]
+
+## About This Guide
+
+[Overview of what the guide covers, who it's for, and how to use it]
+
+## Table of Contents
+
+### Part I: Foundations & Context
+
+#### [01. Executive Summary](sections/01_executive_summary.md)
+A high-level overview of the AI agent evaluation challenge in 2026, why traditional evaluation fails for agentic systems, and key recommendations for building reliable agents. This section provides the strategic context and roadmap for the entire guide.
+
+#### [02. Introduction to AI Agent Evaluation](sections/02_introduction_to_ai_agent_evaluation.md)
+Explores what makes AI agents fundamentally different from traditional AI systems, the evolution of agent evaluation from 2023-2026, and the current state of industry adoption. Defines key stakeholders and their unique evaluation needs.
+
+### Part II: The Challenge Landscape
+
+#### [03. Critical Evaluation Gaps and Challenges](sections/03_critical_evaluation_gaps_and_challenges.md)
+Deep dive into the five critical evaluation gaps that cause production failures, including distribution mismatch, coordination failures, and non-deterministic variance. Also covers technical, organizational, and security challenges.
+
+[... continues for all sections ...]
+
+### Appendices
+
+#### [Appendix A: Comprehensive Metric Definitions Reference](sections/appendices/appendix_a_comprehensive_metric_definitions_reference.md)
+Complete reference guide with detailed definitions, measurement approaches, and implementation examples for 80+ evaluation metrics across all categories.
+
+[... continues for all appendices ...]
+
+## How to Use This Guide
+
+[Instructions on navigating the guide, recommended reading paths for different roles]
+
+## Additional Resources
+
+- [Master References (CSV)](master_references.csv) - Complete bibliography
+- [Glossary](glossary.md) - Technical terms and definitions
+- [Quick Start Guide](quick_start_guide.md) - Fast-track reference
+
+## Version History
+
+See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
+
+## License and Attribution
+
+[License information and attribution]
+```
 
 ### Deliverable Structure
 
@@ -970,6 +1033,11 @@ For each phase below, the following output format requirements apply:
 3. **Master Reference CSV Update**: As sections are completed, the `master_references.csv` file will be updated with new citations, ensuring no duplicates and maintaining consistent formatting
 4. **Style Compliance**: All content will adhere to the semi-formal technical blog style guidelines outlined above
 5. **Progressive Delivery**: Sections can be delivered incrementally as they are completed, allowing for early feedback and iteration
+6. **README.md Table of Contents**: As each section is completed, the `README.md` file will be updated to include:
+   - A comprehensive table of contents listing all sections
+   - A short summary (2-3 sentences) for each completed section
+   - Relative URLs linking to each section's full content file (e.g., `[01. Executive Summary](sections/01_executive_summary.md)`)
+   - This ensures the README serves as both a navigation hub and a high-level overview of the entire guide
 
 ---
 
