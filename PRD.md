@@ -1030,14 +1030,10 @@ For each phase below, the following output format requirements apply:
 
 1. **Modular File Creation**: Each completed section will be saved as a separate `.md` file following the naming convention (e.g., `01_executive_summary.md`)
 2. **Section-Specific References**: Every section file will include a References subsection listing only the sources cited in that section
-3. **Master Reference CSV Update**: As sections are completed, the `master_references.csv` file will be updated with new citations, ensuring no duplicates and maintaining consistent formatting
-4. **Style Compliance**: All content will adhere to the semi-formal technical blog style guidelines outlined above
-5. **Progressive Delivery**: Sections can be delivered incrementally as they are completed, allowing for early feedback and iteration
-6. **README.md Table of Contents**: As each section is completed, the `README.md` file will be updated to include:
-   - A comprehensive table of contents listing all sections
-   - A short summary (2-3 sentences) for each completed section
-   - Relative URLs linking to each section's full content file (e.g., `[01. Executive Summary](sections/01_executive_summary.md)`)
-   - This ensures the README serves as both a navigation hub and a high-level overview of the entire guide
+3. **Style Compliance**: All content will adhere to the semi-formal technical blog style guidelines outlined above
+4. **Progressive Delivery**: Sections can be delivered incrementally as they are completed, allowing for early feedback and iteration
+
+**Note**: The `README.md` table of contents and `master_references.csv` will be consolidated and updated in a final phase (Phase 13) after all content sections are complete. This ensures consistency and avoids redundant updates during iterative development.
 
 ---
 
@@ -1065,7 +1061,6 @@ For each phase below, the following output format requirements apply:
 - `01_executive_summary.md` - Executive summary with 2026 statistics and section-specific references
 - `02_introduction_to_ai_agent_evaluation.md` - Introduction with clear problem statement and section-specific references
 - Visual evolution timeline 2023-2026 (included in section or as asset)
-- Updated `master_references.csv` with all citations from sections 1-2
 
 ---
 
@@ -1184,7 +1179,6 @@ For each phase below, the following output format requirements apply:
 - Code examples and templates (embedded in sections or in appendices)
 - Domain-specific metric collections (embedded in Section 7)
 - Weighted scoring implementation guide (embedded in Section 8)
-- Updated `master_references.csv` with all citations from sections 5-8
 
 ---
 
@@ -1481,7 +1475,33 @@ For each phase below, the following output format requirements apply:
 - `appendix_g_additional_resources_and_references.md` - Organized bibliography and learning resources with section-specific references
 - `appendix_h_cloud_provider_feature_comparison_matrix.md` - Cloud provider comparison with section-specific references
 - `appendix_i_security_benchmark_comparison.md` - Security benchmark analysis with section-specific references
-- Final `master_references.csv` - Complete, deduplicated master bibliography from all sections
+
+---
+
+### **Phase 13: Documentation Consolidation (README.md & Master References)**
+
+**Timeline:** 1-2 days
+
+**Purpose:**
+Final consolidation phase to create the master documentation files after all content sections are complete.
+
+**Execution Steps:**
+1. Aggregate all references from sections 1-31 and appendices into `master_references.csv`
+2. Deduplicate citations and ensure consistent formatting
+3. Create comprehensive `README.md` with:
+   - Complete table of contents listing all sections
+   - Short summary (2-3 sentences) for each section
+   - Relative URLs linking to each section's full content file
+   - Usage instructions and navigation guide
+   - Role-based reading recommendations
+4. Create `00_table_of_contents.md` with full navigation structure
+5. Final consistency review across all documentation
+
+**Deliverables:**
+- `README.md` - Complete guide overview with table of contents, summaries, and navigation
+- `master_references.csv` - Complete, deduplicated master bibliography from all sections
+- `00_table_of_contents.md` - Master table of contents with links to all sections
+- `CHANGELOG.md` - Version history and updates
 
 ---
 
