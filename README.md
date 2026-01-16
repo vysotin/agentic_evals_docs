@@ -157,7 +157,7 @@ Quick-reference guide for all 80+ evaluation metrics covered in this guide. Each
 Comprehensive comparison tables for selecting the right platforms: observability platforms (open-source and commercial), evaluation frameworks, LLM-as-Judge solutions, instrumentation libraries, OpenTelemetry backends, and selection decision matrices. Includes feature comparisons, pricing considerations, and deployment options.
 
 #### [Appendix C: Judge Prompt Templates](sections/appendices/appendix_c_judge_prompt_templates.md)
-Production-ready prompt templates for LLM-as-Judge evaluation: general judge prompt structure, task completion prompts, quality assessment prompts, safety and compliance prompts, agent-specific prompts, pairwise comparison prompts, and calibration/bias mitigation guidelines. Tested with GPT-4 and Claude models.
+Some examples of prompt templates for LLM-as-Judge evaluation: general judge prompt structure, task completion prompts, quality assessment prompts, safety and compliance prompts, agent-specific prompts, pairwise comparison prompts, and calibration/bias mitigation guidelines.
 
 #### [Appendix D: Glossary of Terms](sections/appendices/appendix_d_glossary.md)
 Definitions for key terms used throughout this guide, organized alphabetically with cross-references to related concepts. Covers 80+ terms from A/B Testing to Zero-Shot, including agent-specific terminology (AgentBench, AgentDojo, Agentic AI), evaluation concepts (LLM-as-Judge, Forensic Loop), and technical standards (OpenTelemetry, OTLP).
@@ -219,4 +219,3 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 This guide synthesizes research from 40+ industry sources, academic papers, and practitioner insights. All sources are cited within each section and compiled in the master references file.
 
-**Contributors:** This guide was developed with assistance from Claude AI (Anthropic) based on comprehensive research of industry practices, academic literature, and expert insights in AI agent evaluation and monitoring.
