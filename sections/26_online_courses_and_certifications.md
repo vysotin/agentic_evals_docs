@@ -1,4 +1,4 @@
-# Section 27: Online Courses and Certifications
+# Section 26: Online Courses and Certifications
 
 > **Part X**: Education & Resources
 > **Estimated Reading Time**: 18 minutes
@@ -9,20 +9,20 @@ The rapid evolution of AI agent evaluation has spawned a rich ecosystem of educa
 
 ## Table of Contents
 
-- [27.1 Dedicated Evaluation Courses](#271-dedicated-evaluation-courses)
-- [27.2 AI Product Management Certifications](#272-ai-product-management-certifications)
-- [27.3 University Courses](#273-university-courses)
-- [27.4 Platform and Framework Training](#274-platform-and-framework-training)
-- [27.5 Workshops and Short Courses](#275-workshops-and-short-courses)
-- [27.6 Course Selection Guide](#276-course-selection-guide)
+- [26.1 Dedicated Evaluation Courses](#261-dedicated-evaluation-courses)
+- [26.2 AI Product Management Certifications](#262-ai-product-management-certifications)
+- [26.3 University Courses](#263-university-courses)
+- [26.4 Platform and Framework Training](#264-platform-and-framework-training)
+- [26.5 Workshops and Short Courses](#265-workshops-and-short-courses)
+- [26.6 Course Selection Guide](#266-course-selection-guide)
 
 ---
 
-## 27.1 Dedicated Evaluation Courses
+## 26.1 Dedicated Evaluation Courses
 
 These courses focus specifically on evaluating and testing AI agents and LLM systems—the most directly relevant training for practitioners in this space.
 
-### 27.1.1 Evaluating AI Agents (DeepLearning.AI)
+### 26.1.1 Evaluating AI Agents (DeepLearning.AI)
 
 | Attribute | Details |
 |-----------|---------|
@@ -55,7 +55,7 @@ This course teaches systematic approaches to assessing and improving AI agent pe
 
 ---
 
-### 27.1.2 Evaluating AI Agents (Udemy)
+### 26.1.2 Evaluating AI Agents (Udemy)
 
 | Attribute | Details |
 |-----------|---------|
@@ -89,7 +89,7 @@ A comprehensive course on mastering quality, performance, and cost evaluation fr
 
 ---
 
-### 27.1.3 LLM Evaluations for AI Product Teams (Evidently AI)
+### 26.1.3 LLM Evaluations for AI Product Teams (Evidently AI)
 
 | Attribute | Details |
 |-----------|---------|
@@ -123,7 +123,7 @@ A gentle introduction to evaluating LLM-powered products, specifically designed 
 
 ---
 
-### 27.1.4 LLM Evaluations for AI Builders (Evidently AI)
+### 26.1.4 LLM Evaluations for AI Builders (Evidently AI)
 
 | Attribute | Details |
 |-----------|---------|
@@ -157,7 +157,7 @@ A hands-on video course with 10 code tutorials covering practical LLM evaluation
 
 ---
 
-### 27.1.5 AI Evals Certification (Product School)
+### 26.1.5 AI Evals Certification (Product School)
 
 | Attribute | Details |
 |-----------|---------|
@@ -191,7 +191,7 @@ A certification program specifically designed for Product Managers, providing fr
 
 ---
 
-### 27.1.6 Evaluating and Debugging Generative AI (DeepLearning.AI)
+### 26.1.6 Evaluating and Debugging Generative AI (DeepLearning.AI)
 
 | Attribute | Details |
 |-----------|---------|
@@ -225,11 +225,11 @@ Introduction to using the Weights & Biases platform for managing the complexity 
 
 ---
 
-## 27.2 AI Product Management Certifications
+## 26.2 AI Product Management Certifications
 
 These certifications cover broader AI product management skills, with evaluation as a key component. Valuable for those seeking comprehensive AI PM competency.
 
-### 27.2.1 AI Agents for Product Leaders (Maven)
+### 26.2.1 AI Agents for Product Leaders (Maven)
 
 | Attribute | Details |
 |-----------|---------|
@@ -264,7 +264,7 @@ A certification program declaring that "2026 is the year product leaders need to
 
 ---
 
-### 27.2.2 AI Product Management Certification (Maven - Product Faculty)
+### 26.2.2 AI Product Management Certification (Maven - Product Faculty)
 
 | Attribute | Details |
 |-----------|---------|
@@ -298,7 +298,7 @@ Comprehensive AI PM certification that emphasizes rigorous evaluation as a core 
 
 ---
 
-### 27.2.3 Agentic AI Product Management Certification (Maven)
+### 26.2.3 Agentic AI Product Management Certification (Maven)
 
 | Attribute | Details |
 |-----------|---------|
@@ -332,7 +332,7 @@ An exclusive focus on Agentic AI product management—not general LLMs or AI, bu
 
 ---
 
-### 27.2.4 IBM AI Product Manager Professional Certificate (Coursera)
+### 26.2.4 IBM AI Product Manager Professional Certificate (Coursera)
 
 | Attribute | Details |
 |-----------|---------|
@@ -366,7 +366,7 @@ A comprehensive professional certificate covering AI product management fundamen
 
 ---
 
-### 27.2.5 AI Product Manager Expert Certification (Pragmatic Institute)
+### 26.2.5 AI Product Manager Expert Certification (Pragmatic Institute)
 
 | Attribute | Details |
 |-----------|---------|
@@ -398,11 +398,11 @@ From an industry leader with over 250,000 certifications issued since 1993. Focu
 
 ---
 
-## 27.3 University Courses
+## 26.3 University Courses
 
 Academic courses provide deeper theoretical foundations and research perspectives on agent evaluation.
 
-### 27.3.1 Stanford CS329T: Trustworthy Machine Learning
+### 26.3.1 Stanford CS329T: Trustworthy Machine Learning
 
 | Attribute | Details |
 |-----------|---------|
@@ -441,7 +441,7 @@ A project-based course on building and evaluating agentic AI applications powere
 
 ---
 
-### 27.3.2 Berkeley CS294/194-196: Agentic AI
+### 26.3.2 Berkeley CS294/194-196: Agentic AI
 
 | Attribute | Details |
 |-----------|---------|
@@ -479,7 +479,7 @@ A comprehensive course on agentic AI as "the new frontier poised to transform da
 
 ---
 
-### 27.3.3 Berkeley CS294/194-280: Advanced Large Language Model Agents
+### 26.3.3 Berkeley CS294/194-280: Advanced Large Language Model Agents
 
 | Attribute | Details |
 |-----------|---------|
@@ -511,7 +511,7 @@ Dives deeper into advanced topics in LLM agents, focusing on reasoning, mathemat
 
 ---
 
-### 27.3.4 Stanford CS329A: Self-Improving AI Agents
+### 26.3.4 Stanford CS329A: Self-Improving AI Agents
 
 | Attribute | Details |
 |-----------|---------|
@@ -541,11 +541,11 @@ Focuses on agents that can improve their own performance over time, including ev
 
 ---
 
-## 27.4 Platform and Framework Training
+## 26.4 Platform and Framework Training
 
 Training specific to evaluation and observability platforms provides practical implementation skills.
 
-### 27.4.1 Arize AI Learning Resources
+### 26.4.1 Arize AI Learning Resources
 
 | Resource | Format | Topics |
 |----------|--------|--------|
@@ -563,7 +563,7 @@ Training specific to evaluation and observability platforms provides practical i
 
 ---
 
-### 27.4.2 LangChain/LangSmith Academy
+### 26.4.2 LangChain/LangSmith Academy
 
 | Resource | Format | Topics |
 |----------|--------|--------|
@@ -581,7 +581,7 @@ Training specific to evaluation and observability platforms provides practical i
 
 ---
 
-### 27.4.3 MLflow Learning Resources
+### 26.4.3 MLflow Learning Resources
 
 | Resource | Format | Topics |
 |----------|--------|--------|
@@ -599,7 +599,7 @@ Training specific to evaluation and observability platforms provides practical i
 
 ---
 
-### 27.4.4 Langfuse Documentation and Tutorials
+### 26.4.4 Langfuse Documentation and Tutorials
 
 | Resource | Format | Topics |
 |----------|--------|--------|
@@ -617,11 +617,11 @@ Training specific to evaluation and observability platforms provides practical i
 
 ---
 
-## 27.5 Workshops and Short Courses
+## 26.5 Workshops and Short Courses
 
 Conference workshops and industry events provide intensive, focused learning opportunities.
 
-### 27.5.1 ODSC AI Summit Workshops
+### 26.5.1 ODSC AI Summit Workshops
 
 The Open Data Science Conference regularly features workshops on AI evaluation.
 
@@ -643,7 +643,7 @@ The Open Data Science Conference regularly features workshops on AI evaluation.
 
 ---
 
-### 27.5.2 NeurIPS, ICML, and ICLR Tutorials
+### 26.5.2 NeurIPS, ICML, and ICLR Tutorials
 
 Major ML conferences feature tutorials on agent evaluation research.
 
@@ -659,9 +659,9 @@ Major ML conferences feature tutorials on agent evaluation research.
 
 ---
 
-## 27.6 Course Selection Guide
+## 26.6 Course Selection Guide
 
-### 27.6.1 By Role
+### 26.6.1 By Role
 
 | Role | Recommended Courses |
 |------|---------------------|
@@ -672,7 +672,7 @@ Major ML conferences feature tutorials on agent evaluation research.
 | **AI/ML Engineer** | All dedicated courses, Platform training, University courses |
 | **Executive** | Evidently for Product Teams, Product School certification |
 
-### 27.6.2 By Time Investment
+### 26.6.2 By Time Investment
 
 | Time Available | Recommended Path |
 |----------------|------------------|
@@ -682,7 +682,7 @@ Major ML conferences feature tutorials on agent evaluation research.
 | **3 months** | Maven certification + comprehensive practice |
 | **1 semester** | University course (Stanford/Berkeley) |
 
-### 27.6.3 By Budget
+### 26.6.3 By Budget
 
 | Budget | Recommended Options |
 |--------|---------------------|
@@ -692,7 +692,7 @@ Major ML conferences feature tutorials on agent evaluation research.
 | **< $2,000** | Maven certifications, Product School |
 | **Higher** | University courses, Pragmatic Institute |
 
-### 27.6.4 Certification Value
+### 26.6.4 Certification Value
 
 | Certification | Industry Recognition | Career Impact |
 |---------------|---------------------|---------------|
@@ -759,4 +759,4 @@ Major ML conferences feature tutorials on agent evaluation research.
 ---
 
 **Navigation:**
-← [Previous Section: Learning Pathways](26_learning_pathways.md) | [Table of Contents](../README.md) | [Next Section: Community and Continuing Education](28_community_and_continuing_education.md) →
+← [Previous Section: Vendor and Expert Insights](25_vendor_and_expert_insights.md) | [Table of Contents](../README.md) | [Next Section: Community and Continuing Education](27_community_and_continuing_education.md) →

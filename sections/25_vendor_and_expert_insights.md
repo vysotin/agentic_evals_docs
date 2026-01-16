@@ -472,4 +472,4 @@ This approach provides richer evaluation than traditional output-only assessment
 ---
 
 **Navigation:**
-← [Previous Section: Use Case-Specific Evaluation](24_use_case_specific_evaluation.md) | [Table of Contents](../README.md) | [Next Section: Learning Pathways](26_learning_pathways.md) →
+← [Previous Section: Use Case-Specific Evaluation](24_use_case_specific_evaluation.md) | [Table of Contents](../README.md) | [Next Section: Online Courses and Certifications](26_online_courses_and_certifications.md) →

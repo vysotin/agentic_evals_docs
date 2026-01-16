@@ -1,4 +1,4 @@
-# Section 29: Research Frontiers
+# Section 28: Research Frontiers
 
 > **Part XI**: Future Directions
 > **Estimated Reading Time**: 18 minutes
@@ -9,21 +9,21 @@ The field of AI agent evaluation is evolving rapidly, with research pushing into
 
 ## Table of Contents
 
-- [29.1 Standardized Benchmarks](#291-standardized-benchmarks)
-- [29.2 Formal Verification Methods](#292-formal-verification-methods)
-- [29.3 Explainability Advances](#293-explainability-advances)
-- [29.4 Automated Evaluation Generation](#294-automated-evaluation-generation)
-- [29.5 Next-Generation Security](#295-next-generation-security)
-- [29.6 Multi-Agent Coordination Research](#296-multi-agent-coordination-research)
-- [29.7 Open Research Questions](#297-open-research-questions)
+- [28.1 Standardized Benchmarks](#281-standardized-benchmarks)
+- [28.2 Formal Verification Methods](#282-formal-verification-methods)
+- [28.3 Explainability Advances](#283-explainability-advances)
+- [28.4 Automated Evaluation Generation](#284-automated-evaluation-generation)
+- [28.5 Next-Generation Security](#285-next-generation-security)
+- [28.6 Multi-Agent Coordination Research](#286-multi-agent-coordination-research)
+- [28.7 Open Research Questions](#287-open-research-questions)
 
 ---
 
-## 29.1 Standardized Benchmarks
+## 28.1 Standardized Benchmarks
 
 Current benchmarks often fail to capture the complexity of real-world agent deployments. Research is advancing on multiple fronts to address these limitations.
 
-### 29.1.1 Long-Horizon Planning Benchmarks
+### 28.1.1 Long-Horizon Planning Benchmarks
 
 One of the most significant gaps in current evaluation is assessing agents on tasks that span many steps and require sustained coherence over extended interactions.
 
@@ -53,7 +53,7 @@ This benchmark tests agents on full repository generation:
 - Even the strongest agents achieve below 40% average test pass rates
 - Exposes fundamental long-horizon failure modes: premature termination, loss of global coherence, fragile cross-file dependencies
 
-### 29.1.2 Tool Execution Verification
+### 28.1.2 Tool Execution Verification
 
 As agents increasingly interact with real-world systems, verifying tool execution becomes critical.
 
@@ -75,7 +75,7 @@ The emergence of Model Context Protocol (MCP) has enabled new evaluation approac
 | **MCP-Universe** | Broad tool interaction testing |
 | **MCP-Bench** | Multi-step tool-using tasks across finance, scientific computing, travel |
 
-### 29.1.3 Reflection Efficacy
+### 28.1.3 Reflection Efficacy
 
 An emerging research area focuses on evaluating how well agents can assess their own performance and self-correct.
 
@@ -91,7 +91,7 @@ An emerging research area focuses on evaluating how well agents can assess their
 - Chain-of-thought monitoring reveals models sometimes "cheat" rather than reason genuinely
 - Calibration of self-assessment remains poor in most current models
 
-### 29.1.4 Multi-Agent Coordination
+### 28.1.4 Multi-Agent Coordination
 
 Benchmarks are evolving to assess how multiple agents work together:
 
@@ -112,11 +112,11 @@ Addresses a critical gap in existing benchmarks:
 
 ---
 
-## 29.2 Formal Verification Methods
+## 28.2 Formal Verification Methods
 
 The push for provably safe and reliable agents is driving research into formal methods that can provide mathematical guarantees about agent behavior.
 
-### 29.2.1 Pre/Postconditions and Contracts
+### 28.2.1 Pre/Postconditions and Contracts
 
 Borrowing from software engineering, researchers are exploring how to specify formal contracts for agent behavior.
 
@@ -150,7 +150,7 @@ contract AgentAction {
 - Compositional verification for multi-agent systems
 - Real-time contract monitoring during execution
 
-### 29.2.2 Type Systems for Agents
+### 28.2.2 Type Systems for Agents
 
 Researchers are developing type systems that can catch certain classes of errors statically:
 
@@ -161,7 +161,7 @@ Researchers are developing type systems that can catch certain classes of errors
 | **Linearity types** | Ensure resources are used exactly once |
 | **Capability types** | Limit what tools an agent can invoke |
 
-### 29.2.3 Runtime Monitors
+### 28.2.3 Runtime Monitors
 
 Given the difficulty of full static verification, runtime monitoring provides a practical alternative:
 
@@ -179,7 +179,7 @@ The open-source Inspect framework includes suites that probe:
 - Harmful behavior (e.g., AgentHarm benchmark)
 - Structured pre-deployment and post-deployment testing
 
-### 29.2.4 Hybrid Verification
+### 28.2.4 Hybrid Verification
 
 The most promising approaches combine formal methods with statistical techniques:
 
@@ -192,11 +192,11 @@ The most promising approaches combine formal methods with statistical techniques
 
 ---
 
-## 29.3 Explainability Advances
+## 28.3 Explainability Advances
 
 The ability to understand and explain agent decisions is becoming both a technical requirement and a regulatory mandate.
 
-### 29.3.1 Interpretable Agent Reasoning
+### 28.3.1 Interpretable Agent Reasoning
 
 **Mechanistic Interpretability Breakthroughs:**
 
@@ -218,7 +218,7 @@ A new approach for reasoning models:
 - Enables real-time intervention when reasoning goes off-track
 - OpenAI used this technique to catch models circumventing evaluation constraints
 
-### 29.3.2 Decision Provenance
+### 28.3.2 Decision Provenance
 
 Understanding not just what an agent decided, but why and based on what information:
 
@@ -237,7 +237,7 @@ IBM has positioned itself as a leader in "agentic explainability":
 - Integrated XAI frameworks across healthcare and other verticals
 - Built-in compliance guardrails with explainable decision-making
 
-### 29.3.3 Regulatory Requirements
+### 28.3.3 Regulatory Requirements
 
 Explainability is transitioning from nice-to-have to mandatory:
 
@@ -257,11 +257,11 @@ This theorem frames the choices organizations must make when deploying agents.
 
 ---
 
-## 29.4 Automated Evaluation Generation
+## 28.4 Automated Evaluation Generation
 
 Manual creation of comprehensive test suites is intractable for complex agents. Research is advancing automated approaches.
 
-### 29.4.1 Synthetic Data Generation
+### 28.4.1 Synthetic Data Generation
 
 **Key Approaches:**
 
@@ -295,7 +295,7 @@ Manual creation of comprehensive test suites is intractable for complex agents. 
    └── Difficulty calibration
 ```
 
-### 29.4.2 Evaluation Taxonomy Development
+### 28.4.2 Evaluation Taxonomy Development
 
 Academic research has developed comprehensive frameworks for organizing evaluation approaches:
 
@@ -312,7 +312,7 @@ Academic research has developed comprehensive frameworks for organizing evaluati
 - Dynamic and long-horizon interactions
 - Compliance requirements
 
-### 29.4.3 Multi-Dimensional Safety Benchmarks
+### 28.4.3 Multi-Dimensional Safety Benchmarks
 
 Future research priorities include:
 - Developing benchmarks that simulate real-world adversarial scenarios
@@ -322,11 +322,11 @@ Future research priorities include:
 
 ---
 
-## 29.5 Next-Generation Security
+## 28.5 Next-Generation Security
 
 Security research for AI agents is rapidly evolving as threat models become more sophisticated.
 
-### 29.5.1 Advanced Adversarial Defense
+### 28.5.1 Advanced Adversarial Defense
 
 **The Evolving Threat Landscape:**
 
@@ -349,7 +349,7 @@ OpenAI's approach to agent security provides insights:
 - Proactive discovery of novel attack strategies before wild deployment
 - As base models get stronger, attacker models naturally become more capable
 
-### 29.5.2 Automated Red-Teaming
+### 28.5.2 Automated Red-Teaming
 
 **Research Directions:**
 
@@ -362,7 +362,7 @@ OpenAI's approach to agent security provides insights:
 
 > "Enterprises deploying AI agents operate at a significant disadvantage. While OpenAI leverages white-box access and continuous simulations, most organizations work with black-box models and limited visibility into their agents' reasoning processes."
 
-### 29.5.3 Defensive Technologies
+### 28.5.3 Defensive Technologies
 
 **2026 Defense Capabilities:**
 
@@ -379,11 +379,11 @@ OpenAI's approach to agent security provides insights:
 
 ---
 
-## 29.6 Multi-Agent Coordination Research
+## 28.6 Multi-Agent Coordination Research
 
 As multi-agent systems become more common, evaluation of coordination capabilities becomes critical.
 
-### 29.6.1 Coordination Protocols
+### 28.6.1 Coordination Protocols
 
 **Emerging Standards:**
 
@@ -395,7 +395,7 @@ As multi-agent systems become more common, evaluation of coordination capabiliti
 
 These protocols are establishing the "HTTP-equivalent" standards for agentic AI, enabling interoperability and composability.
 
-### 29.6.2 Hybrid Swarm Orchestration
+### 28.6.2 Hybrid Swarm Orchestration
 
 > "Future multi-agent ecosystems will consist of specialized agents—some highly neural for creative tasks, some highly symbolic for regulatory compliance—that communicate through standardized protocols. The orchestration of such hybrid swarms is a critical research frontier."
 
@@ -405,7 +405,7 @@ These protocols are establishing the "HTTP-equivalent" standards for agentic AI,
 - How to test for coordination failures before deployment?
 - What observability is needed for production multi-agent systems?
 
-### 29.6.3 OpenTelemetry Convergence
+### 28.6.3 OpenTelemetry Convergence
 
 OpenTelemetry is becoming the de facto standard for agent observability:
 
@@ -421,11 +421,11 @@ Microsoft contributed standardized tracing for agentic systems to OpenTelemetry 
 
 ---
 
-## 29.7 Open Research Questions
+## 28.7 Open Research Questions
 
 Several fundamental questions remain active areas of research.
 
-### 29.7.1 Evaluation-Capability Gap
+### 28.7.1 Evaluation-Capability Gap
 
 **The Knowing-Doing Gap:**
 
@@ -436,7 +436,7 @@ Several fundamental questions remain active areas of research.
 - How can evaluation better capture this gap?
 - What training approaches might close it?
 
-### 29.7.2 Scaling Evaluation
+### 28.7.2 Scaling Evaluation
 
 As agents become more capable, evaluation becomes exponentially harder:
 
@@ -447,7 +447,7 @@ As agents become more capable, evaluation becomes exponentially harder:
 | **Human Expert Scarcity** | Not enough experts to evaluate sophisticated agent behaviors |
 | **Emergent Capability Detection** | Identifying new capabilities before they're tested |
 
-### 29.7.3 Safety Under Distribution Shift
+### 28.7.3 Safety Under Distribution Shift
 
 > "Reasoning-driven systems still lack formal safety guarantees under distribution shift or adversarial manipulation, and analyses warn that misaligned agents with broad privileges can amplify damage."
 
@@ -516,4 +516,4 @@ As agents become more capable, evaluation becomes exponentially harder:
 ---
 
 **Navigation:**
-← [Previous Section: Community and Continuing Education](28_community_and_continuing_education.md) | [Table of Contents](../README.md) | [Next Section: Industry Predictions for 2026-2027](30_industry_predictions.md) →
+← [Previous Section: Community and Continuing Education](27_community_and_continuing_education.md) | [Table of Contents](../README.md) | [Next Section: Industry Predictions for 2026-2027](29_industry_predictions.md) →

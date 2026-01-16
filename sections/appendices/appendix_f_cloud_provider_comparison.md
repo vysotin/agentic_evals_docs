@@ -1,4 +1,4 @@
-# Appendix H: Cloud Provider Feature Comparison Matrix
+# Appendix F: Cloud Provider Feature Comparison Matrix
 
 > **Appendices**
 > **Reference Document**
@@ -11,18 +11,18 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 
 ## Table of Contents
 
-- [H.1 Overall Comparison](#h1-overall-comparison)
-- [H.2 Evaluation Capabilities](#h2-evaluation-capabilities)
-- [H.3 Observability Features](#h3-observability-features)
-- [H.4 Safety and Guardrails](#h4-safety-and-guardrails)
-- [H.5 Pricing Comparison](#h5-pricing-comparison)
-- [H.6 Selection Guide](#h6-selection-guide)
+- [F.1 Overall Comparison](#f1-overall-comparison)
+- [F.2 Evaluation Capabilities](#f2-evaluation-capabilities)
+- [F.3 Observability Features](#f3-observability-features)
+- [F.4 Safety and Guardrails](#f4-safety-and-guardrails)
+- [F.5 Pricing Comparison](#f5-pricing-comparison)
+- [F.6 Selection Guide](#f6-selection-guide)
 
 ---
 
-## H.1 Overall Comparison
+## F.1 Overall Comparison
 
-### H.1.1 Platform Overview
+### F.1.1 Platform Overview
 
 | Feature | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |---------|-----------------|------------------|-------------|
@@ -34,7 +34,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Pricing Model** | Pay-per-use | Pay-per-use | Pay-per-use |
 | **Free Tier** | Limited | Limited | Limited |
 
-### H.1.2 Supported Models
+### F.1.2 Supported Models
 
 | Model Provider | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |----------------|-----------------|------------------|-------------|
@@ -48,9 +48,9 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 
 ---
 
-## H.2 Evaluation Capabilities
+## F.2 Evaluation Capabilities
 
-### H.2.1 Built-in Evaluators
+### F.2.1 Built-in Evaluators
 
 | Evaluator | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |-----------|-----------------|------------------|-------------|
@@ -65,7 +65,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Custom Rubrics** | Supported | Supported | Supported |
 | **Code Quality** | Limited | Limited | Limited |
 
-### H.2.2 Evaluation Methods
+### F.2.2 Evaluation Methods
 
 | Method | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |--------|-----------------|------------------|-------------|
@@ -77,7 +77,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Batch Evaluation** | Yes | Yes | Yes |
 | **Real-time Evaluation** | Yes | Yes | Limited |
 
-### H.2.3 Agent-Specific Evaluation
+### F.2.3 Agent-Specific Evaluation
 
 | Capability | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |------------|-----------------|------------------|-------------|
@@ -88,7 +88,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Workflow Testing** | Supported | Supported | Supported |
 | **Trace Analysis** | Native | Native | Native |
 
-### H.2.4 RAG-Specific Evaluation
+### F.2.4 RAG-Specific Evaluation
 
 | Metric | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |--------|-----------------|------------------|-------------|
@@ -100,9 +100,9 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 
 ---
 
-## H.3 Observability Features
+## F.3 Observability Features
 
-### H.3.1 Tracing Capabilities
+### F.3.1 Tracing Capabilities
 
 | Feature | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |---------|-----------------|------------------|-------------|
@@ -115,7 +115,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Cost Attribution** | Yes | Yes | Yes |
 | **Latency Analysis** | Yes | Yes | Yes |
 
-### H.3.2 Logging and Monitoring
+### F.3.2 Logging and Monitoring
 
 | Feature | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |---------|-----------------|------------------|-------------|
@@ -127,7 +127,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Alerting** | Native | Native | Native |
 | **Anomaly Detection** | Limited | Limited | Limited |
 
-### H.3.3 Integration Options
+### F.3.3 Integration Options
 
 | Integration | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |-------------|-----------------|------------------|-------------|
@@ -140,9 +140,9 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 
 ---
 
-## H.4 Safety and Guardrails
+## F.4 Safety and Guardrails
 
-### H.4.1 Content Safety Features
+### F.4.1 Content Safety Features
 
 | Feature | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |---------|-----------------|------------------|-------------|
@@ -155,7 +155,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Real-time Filtering** | Yes | Yes | Yes |
 | **Batch Analysis** | Yes | Yes | Yes |
 
-### H.4.2 Guardrails Configuration
+### F.4.2 Guardrails Configuration
 
 | Capability | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |------------|-----------------|------------------|-------------|
@@ -168,7 +168,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Topic Restrictions** | Blocklists | Limited | Topic filters |
 | **Word Filters** | Yes | Yes | Yes |
 
-### H.4.3 Compliance Features
+### F.4.3 Compliance Features
 
 | Feature | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |---------|-----------------|------------------|-------------|
@@ -182,9 +182,9 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 
 ---
 
-## H.5 Pricing Comparison
+## F.5 Pricing Comparison
 
-### H.5.1 Model Pricing (as of January 2026)
+### F.5.1 Model Pricing (as of January 2026)
 
 *Note: Prices are approximate and subject to change. Check provider documentation for current pricing.*
 
@@ -199,7 +199,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Llama 3.1 70B (input)** | $0.27 | $0.27 | $0.27 |
 | **Llama 3.1 70B (output)** | $0.35 | $0.35 | $0.35 |
 
-### H.5.2 Evaluation Service Pricing
+### F.5.2 Evaluation Service Pricing
 
 | Service | Azure AI Foundry | Google Vertex AI | AWS Bedrock |
 |---------|-----------------|------------------|-------------|
@@ -208,7 +208,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Batch Evaluation** | Token cost | Token cost | Token cost |
 | **Human Evaluation** | N/A | N/A | N/A |
 
-### H.5.3 Observability Pricing
+### F.5.3 Observability Pricing
 
 | Service | Azure | Google Cloud | AWS |
 |---------|-------|--------------|-----|
@@ -218,9 +218,9 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 
 ---
 
-## H.6 Selection Guide
+## F.6 Selection Guide
 
-### H.6.1 Decision Matrix
+### F.6.1 Decision Matrix
 
 | If You Need... | Best Choice | Reason |
 |----------------|-------------|--------|
@@ -235,7 +235,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | Existing Azure infrastructure | Azure AI Foundry | Native integration |
 | Existing GCP infrastructure | Vertex AI | Native integration |
 
-### H.6.2 Use Case Recommendations
+### F.6.2 Use Case Recommendations
 
 | Use Case | Recommended Platform | Alternative |
 |----------|---------------------|-------------|
@@ -247,7 +247,7 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 | **Cost-Sensitive** | AWS Bedrock | Vertex AI |
 | **Maximum Safety** | Azure AI Foundry | AWS Bedrock |
 
-### H.6.3 Migration Considerations
+### F.6.3 Migration Considerations
 
 | From | To | Complexity | Key Considerations |
 |------|-----|------------|-------------------|
@@ -275,4 +275,4 @@ This appendix provides detailed feature comparison matrices for AI agent evaluat
 ---
 
 **Navigation:**
-← [Previous Appendix: Additional Resources and References](appendix_g_additional_resources.md) | [Table of Contents](../../README.md) | [Next Appendix: Security Benchmark Comparison](appendix_i_security_benchmark_comparison.md) →
+← [Previous Appendix: Additional Resources and References](appendix_e_additional_resources.md) | [Table of Contents](../../README.md) | [Next Appendix: Security Benchmark Comparison](appendix_g_security_benchmark_comparison.md) →

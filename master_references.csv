@@ -1,83 +1,295 @@
-reference_id,section,authors,year,title,source_type,publication,url,notes
-REF001,01,G2,2026,G2's Enterprise AI Agents Report: Industry Outlook for 2026,Industry Report,G2,https://learn.g2.com/enterprise-ai-agents-report,Comprehensive industry adoption statistics
-REF002,01,OneReach.ai,2026,Agentic AI Stats 2026: Adoption Rates ROI & Market Trends,Industry Report,OneReach.ai,https://onereach.ai/blog/agentic-ai-adoption-rates-roi-market-trends/,Market trends and ROI analysis
-REF003,01,Warmly,2026,35+ Powerful AI Agents Statistics: Adoption & Insights [2026],Industry Report,Warmly,https://www.warmly.ai/p/blog/ai-agents-statistics,Adoption and market statistics
-REF004,01,Gartner,2025,Gartner Predicts 40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026,Press Release,Gartner,https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026,Key industry prediction
-REF005,01,G2,2026,5 Bold Predictions on the Rise of Agentic AI and the $30B Orchestration Boom,Industry Report,G2,https://learn.g2.com/2026-predictions-agentic-ai,Market predictions and orchestration trends
-REF006,01,Multimodal.dev,2026,10 AI Agent Statistics for 2026: Adoption Success Rates & More,Industry Report,Multimodal.dev,https://www.multimodal.dev/post/agentic-ai-statistics,Performance barriers and challenges
-REF007,01,Master of Code,2026,150+ AI Agent Statistics [2026],Industry Report,Master of Code,https://masterofcode.com/blog/ai-agent-statistics,Comprehensive statistics compilation
-REF008,01,WebProNews,2026,2026 AI Agentic Systems: Reshaping Industries Amid Challenges,Industry Report,WebProNews,https://www.webpronews.com/2026-ai-agentic-systems-reshaping-industries-amid-challenges/,IBM research on deployment gap
-REF009,01,Bhatia N,2025,Part 1 — The Five Evaluation Gaps Killing Your Agentic AI in Production,Blog Post,Medium,https://medium.com/@nitikab23/the-five-evaluation-gaps-killing-your-agentic-ai-in-production-6796cae4a0a1,Core framework on evaluation gaps
-REF010,01,Index.dev,2026,50+ Key AI Agent Statistics and Adoption Trends in 2025,Industry Report,Index.dev,https://www.index.dev/blog/ai-agents-statistics,Industry leadership statistics
-REF011,01,Second Talent,2026,50+ AI Agents Statistics Relevant For 2026,Industry Report,Second Talent,https://www.secondtalent.com/resources/ai-agents-statistics/,Market opportunity projections
-REF012,01,Bhatia N,2025,Part 2 — Solving the Distribution Mismatch: Make Your Eval Actually Predict Production,Blog Post,Medium,https://medium.com/@nitikab23/part-2-evaluating-agentic-ai-systems-the-complete-framework-55ceaf86c406,Distribution mismatch solutions
-REF013,01,Bhatia N,2025,Part 3 — Solving Coordination Failures: Why 92% × 88% × 85% ≠ System Success,Blog Post,Medium,https://medium.com/@nitikab23/part-3-evaluating-agentic-ai-systems-the-complete-framework-14906cf0ecff,Coordination failure analysis
-REF014,01,Salesmate,2026,AI Agent Trends for 2026: 7 Shifts to Watch,Industry Report,Salesmate,https://www.salesmate.io/blog/future-of-ai-agents/,Multi-agent workflow trends
-REF015,01,Bhatia N,2025,Part 4 — Solving Quality Assessment at Scale: When Perfect Is the Enemy of Good,Blog Post,Medium,https://medium.com/@nitikab23/part-4-evaluating-agentic-ai-systems-the-complete-framework-3173374543cf,Quality assessment strategies
-REF016,01,Bhatia N,2025,Part 5 — Solving Root Cause Diagnosis,Blog Post,Medium,https://medium.com/@nitikab23/part-5-evaluating-agentic-ai-systems-the-complete-framework-solving-root-cause-diagnosis-24da2980203e,Root cause analysis methods
-REF017,01,Bhatia N,2025,Part 6 — Solving Variance and Non-Determinism,Blog Post,Medium,https://medium.com/@nitikab23/part-6-evaluating-agentic-ai-systems-the-complete-framework-solving-variance-and-non-determinism-8f3b5c3b1e3e,Variance handling approaches
-REF018,01,Traceloop,2025,OpenLLMetry: OpenTelemetry-based Observability for LLMs,Open Source,GitHub,https://github.com/traceloop/openllmetry,Leading LLM observability toolkit
-REF019,01,Langfuse,2025,Langfuse: Open Source LLM Engineering Platform,Platform Documentation,Langfuse,https://langfuse.com/,Observability and tracing platform
-REF020,01,Deepchecks,2025,Evaluating Agentic AI Systems in Production,Blog Post,Deepchecks,https://www.deepchecks.com/evaluating-agentic-ai-systems-production/,Production evaluation guide
-REF021,01,Maxim AI,2025,Evaluating Agentic AI Systems: Frameworks Metrics and Best Practices,Blog Post,Maxim AI,https://www.getmaxim.ai/articles/evaluating-agentic-ai-systems-frameworks-metrics-and-best-practices/,Three-layer framework
-REF022,01,Bhatia N,2025,Part 7 — The Complete Evaluation Framework,Blog Post,Medium,https://medium.com/@nitikab23/part-7-evaluating-agentic-ai-systems-the-complete-framework-integration-roadmap-and-production-deployment-7a3b2c1b0d31,Complete framework integration
-REF023,01,Jung J et al,2024,Systematic Biases in LLM-as-Judge Evaluation,Academic Paper,arXiv,https://arxiv.org/abs/2404.07143,LLM judge bias research
-REF024,01,Confident AI,2025,DeepEval: AI Agent Evaluation,Open Source,Confident AI,https://deepeval.com/guides/guides-ai-agent-evaluation,Agent evaluation framework
-REF025,01,Arcade.dev,2026,State of AI Agents 2026: 5 Trends Shaping Enterprise Adoption,Industry Report,Arcade.dev,https://blog.arcade.dev/5-takeaways-2026-state-of-ai-agents-claude,Enterprise adoption patterns
-REF026,01,NIST,2025,Technical Blog: Strengthening AI Agent Hijacking Evaluations,Technical Blog,NIST,https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations,AgentDojo security framework
-REF027,01,arXiv,2025,RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments,Academic Paper,arXiv,https://arxiv.org/html/2506.15253v1,Real-world security testing
-REF028,01,ICLR,2025,AgentHarm: A Benchmark for Safety Evaluation of LLM Agents,Academic Paper,ICLR Proceedings,https://proceedings.iclr.cc/paper_files/paper/2025/file/c493d23af93118975cdbc32cbe7323f5-Paper-Conference.pdf,Safety benchmark
-REF029,"01,02",Fullstack,2026,Agentic AI vs Traditional AI: Key Differences,Blog Post,Fullstack,https://www.fullstack.com/labs/resources/blog/agentic-ai-vs-traditional-ai-what-sets-ai-agents-apart,Traditional AI comparison
-REF030,"01,02",Machine Learning Mastery,2026,7 Agentic AI Trends to Watch in 2026,Blog Post,Machine Learning Mastery,https://machinelearningmastery.com/7-agentic-ai-trends-to-watch-in-2026/,2026 trend analysis
-REF031,02,TileDB,2026,What is Agentic AI: A Comprehensive 2026 Guide,Technical Guide,TileDB,https://www.tiledb.com/blog/what-is-agentic-ai,Comprehensive agent definition
-REF032,02,Salesmate,2026,The Future of AI Agents: Key Trends to Watch in 2026,Industry Report,Salesmate,https://www.salesmate.io/blog/future-of-ai-agents/,Future trends and tool use
-REF033,02,arXiv,2025,Beyond Task Completion: An Assessment Framework for Evaluating Agentic AI Systems,Academic Paper,arXiv,https://arxiv.org/html/2512.12791v2,Comprehensive assessment framework
-REF034,02,Bhatia N,2025,Part 6 — Solving Variance and Non-Determinism,Blog Post,Medium,https://medium.com/@nitikab23/part-6-evaluating-agentic-ai-systems-the-complete-framework-solving-variance-and-non-determinism-8f3b5c3b1e3e,Non-determinism handling
-REF035,02,Kellton,2026,Agentic AI Trends 2026: Future of Agentic AI Innovations,Blog Post,Kellton,https://www.kellton.com/kellton-tech-blog/agentic-ai-trends-2026,Memory and context innovations
-REF036,02,Blue Prism,2026,Future of AI Agents: Top Trends in 2026,Industry Report,Blue Prism,https://www.blueprism.com/resources/blog/future-ai-agents-trends/,Enterprise trends
-REF037,02,Pragmatic Coders,2026,200+ AI Agent Statistics for 2026,Industry Report,Pragmatic Coders,https://www.pragmaticcoders.com/resources/ai-agent-statistics,Comprehensive statistics
-REF038,02,The Conversation,2025,AI Agents Arrived in 2025 – Here's What Happened and the Challenges Ahead in 2026,Analysis,The Conversation,https://theconversation.com/ai-agents-arrived-in-2025-heres-what-happened-and-the-challenges-ahead-in-2026-272325,Evolution timeline
-REF039,02,Analytics Vidhya,2024,Top 10 AI Agent Trends and Predictions for 2025,Blog Post,Analytics Vidhya,https://www.analyticsvidhya.com/blog/2024/12/ai-agent-trends/,Model Context Protocol
-REF040,02,Medium (Carl Rannaberg),2025,State of AI Agents in 2025: A Technical Analysis,Technical Analysis,Medium,https://carlrannaberg.medium.com/state-of-ai-agents-in-2025-5f11444a5c78,Technical state analysis
-REF041,02,LangChain,2025,State of AI Agents,Industry Report,LangChain,https://www.langchain.com/state-of-agent-engineering,Observability adoption
-REF042,02,Digital Information World,2025,AI Agents Arrived in 2025 – Here's What Happened,Analysis,Digital Information World,https://www.digitalinformationworld.com/2025/12/ai-agents-arrived-in-2025-heres-what.html,Performance metrics
-REF043,02,Deloitte,2026,Agentic AI Strategy | Tech Trends 2026,Industry Report,Deloitte Insights,https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html,Strategic challenges and predictions
-REF044,02,Deloitte,2026,Unlocking Exponential Value with AI Agent Orchestration,Industry Report,Deloitte Insights,https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html,Market projections
-REF045,02,Deloitte,2026,AI Comes of Age: Deloitte's 17th Annual Tech Trends Report,Press Release,Deloitte,https://www.deloitte.com/us/en/about/press-room/deloitte-tech-trends-2026.html,Enterprise strategy statistics
-REF046,"01,03",Bhatia N,2025,Part 1 — The Five Evaluation Gaps Killing Your Agentic AI in Production,Blog Post,Medium,https://medium.com/@nitikab23/the-five-evaluation-gaps-killing-your-agentic-ai-in-production-6796cae4a0a1,Core framework on evaluation gaps (also cited in 01)
-REF047,"01,03",Bhatia N,2025,Part 2 — Solving the Distribution Mismatch,Blog Post,Medium,https://medium.com/@nitikab23/part-2-evaluating-agentic-ai-systems-the-complete-framework-55ceaf86c406,Distribution mismatch solutions (also cited in 01)
-REF048,"01,03",Bhatia N,2025,Part 3 — Solving Coordination Failures,Blog Post,Medium,https://medium.com/@nitikab23/part-3-evaluating-agentic-ai-systems-the-complete-framework-14906cf0ecff,Coordination failure analysis (also cited in 01)
-REF049,"01,03",Bhatia N,2025,Part 4 — Solving Quality Assessment at Scale,Blog Post,Medium,https://medium.com/@nitikab23/part-4-evaluating-agentic-ai-systems-the-complete-framework-3173374543cf,Quality assessment strategies (also cited in 01)
-REF050,"01,03",Bhatia N,2025,Part 5 — Solving Root Cause Diagnosis,Blog Post,Medium,https://medium.com/@nitikab23/part-5-evaluating-agentic-ai-systems-the-complete-framework-solving-root-cause-diagnosis-24da2980203e,Root cause analysis methods (also cited in 01)
-REF051,"01,03",Bhatia N,2025,Part 6 — Solving Variance and Non-Determinism,Blog Post,Medium,https://medium.com/@nitikab23/part-6-evaluating-agentic-ai-systems-the-complete-framework-solving-variance-and-non-determinism-8f3b5c3b1e3e,Variance handling approaches (also cited in 01 and 02)
-REF052,03,arXiv,2025,Detecting Silent Failures in Multi-Agentic AI Trajectories,Academic Paper,arXiv,https://arxiv.org/html/2511.04032v1,Silent failure detection research
-REF053,"02,03",Salesmate,2026,AI Agent Trends for 2026: 7 Shifts to Watch,Industry Report,Salesmate,https://www.salesmate.io/blog/future-of-ai-agents/,Multi-agent workflow trends (also cited in 02)
-REF054,03,Stellar Cyber,2026,Top Agentic AI Security Threats in 2026,Technical Guide,Stellar Cyber,https://stellarcyber.ai/learn/agentic-ai-securiry-threats/,Comprehensive security threat analysis
-REF055,"01,03",Arcade.dev,2026,State of AI Agents 2026: 5 Trends Shaping Enterprise Adoption,Industry Report,Arcade.dev,https://blog.arcade.dev/5-takeaways-2026-state-of-ai-agents-claude,Enterprise adoption patterns (also cited in 01)
-REF056,"01,03",Master of Code,2026,150+ AI Agent Statistics [2026],Industry Report,Master of Code,https://masterofcode.com/blog/ai-agent-statistics,Comprehensive statistics (also cited in 01)
-REF057,"02,03",LangChain,2025,State of AI Agents,Industry Report,LangChain,https://www.langchain.com/state-of-agent-engineering,Observability adoption (also cited in 02)
-REF058,03,arXiv,2026,Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems,Academic Paper,arXiv,https://arxiv.org/html/2601.04170v1,Agent drift research
-REF059,03,Metadata Weekly,2026,The 2026 AI Reality Check: It's the Foundations Not the Models,Blog Post,Substack,https://metadataweekly.substack.com/p/the-2026-ai-reality-check-its-the,Foundation challenges
-REF060,03,CIS Inc,2026,The CTO's Strategic Guide to AI Model Drift,Technical Guide,CIS Inc,https://www.cisin.com/coffee-break/the-cto-s-strategic-guide-to-ai-model-drift-risk-mitigation-and-operationalizing-trust-in-enterprise-ai.html,Model drift guide
-REF061,"02,03",WebProNews,2026,2026 AI Agentic Systems: Reshaping Industries Amid Challenges,Industry Report,WebProNews,https://www.webpronews.com/2026-ai-agentic-systems-reshaping-industries-amid-challenges/,Integration challenges (also cited in 01 and 02)
-REF062,03,IBM,2026,AI Agent Governance: Big Challenges Big Opportunities,Technical Guide,IBM Think,https://www.ibm.com/think/insights/ai-agent-governance,Governance challenges and solutions
-REF063,03,TrueFoundry,2025,Monitoring & Observability for LLM RAG and Agentic AI Apps,Technical Guide,TrueFoundry,https://www.truefoundry.com/blog/monitoring-observability-for-llm-rag-and-agentic-ai-apps,Silent failures and monitoring
-REF064,03,IAPP,2026,AI Governance in the Agentic Era,Industry Report,IAPP,https://iapp.org/resources/article/ai-governance-in-the-agentic-era,Regulatory governance analysis
-REF065,03,DAIN Studios,2026,AI in 2026: Governance as a Competitive Edge,Blog Post,DAIN Studios,https://dainstudios.com/insights/ai-in-2026-governance-as-a-competitive-edge/,Governance trends
-REF066,"02,03",Deloitte,2026,Agentic AI Strategy | Tech Trends 2026,Industry Report,Deloitte Insights,https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html,Strategic challenges (also cited in 02)
-REF067,03,Truyo,2026,AI Governance 2026: The Struggle to Enable Scale Without Losing Control,Blog Post,Truyo,https://truyo.com/ai-governance-2026-the-struggle-to-enable-scale-without-losing-control/,Governance scaling challenges
-REF068,03,Multimodal.dev,2026,10 AI Agent Statistics for 2026,Industry Report,Multimodal.dev,https://www.multimodal.dev/post/agentic-ai-statistics,Blame attribution statistics
-REF069,03,Edstellar,2026,AI Agents: Reliability Challenges & Proven Solutions [2026],Technical Guide,Edstellar,https://www.edstellar.com/blog/ai-agent-reliability-challenges,Reliability challenges
-REF070,03,ODSC,2025,Mastering AI Evaluation in 2025: Lessons from Ian Cairns,Blog Post,ODSC,https://opendatascience.com/mastering-ai-evaluation-in-2025-lessons-from-ian-cairns-on-building-reliable-systems/,Evaluation engineering role
-REF071,03,Sombra,2026,LLM Security Risks in 2026: Prompt Injection RAG and Shadow AI,Technical Guide,Sombra,https://sombrainc.com/blog/llm-security-risks-2026,Security risks overview
-REF072,03,Practical DevSecOps,2026,MCP Security Vulnerabilities: How to Prevent Prompt Injection and Tool Poisoning,Technical Guide,Practical DevSecOps,https://www.practical-devsecops.com/mcp-security-vulnerabilities/,MCP security guide
-REF073,03,Lakera,2026,Indirect Prompt Injection: The Hidden Threat Breaking Modern AI Systems,Technical Guide,Lakera,https://www.lakera.ai/blog/indirect-prompt-injection,Indirect prompt injection analysis
-REF074,03,Emergent Mind,2025,AgentDojo Benchmark: LLM Security Evaluation,Technical Summary,Emergent Mind,https://www.emergentmind.com/topics/agentdojo-benchmark,AgentDojo benchmark summary
-REF075,"01,03",NIST,2025,Technical Blog: Strengthening AI Agent Hijacking Evaluations,Technical Blog,NIST,https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations,AgentDojo security framework (also cited in 01)
-REF076,"01,03",arXiv,2025,RAS-Eval: Security Evaluation of LLM Agents in Real-World Environments,Academic Paper,arXiv,https://arxiv.org/html/2506.15253v1,Real-world security testing (also cited in 01)
-REF077,03,Emergent Mind,2025,AgentHarm: LLM Agent Safety Benchmark,Technical Summary,Emergent Mind,https://www.emergentmind.com/topics/agentharm,AgentHarm benchmark summary
-REF078,03,eSecurity Planet,2026,AI Agent Attacks in Q4 2025 Signal New Risks for 2026,Industry Report,eSecurity Planet,https://www.esecurityplanet.com/artificial-intelligence/ai-agent-attacks-in-q4-2025-signal-new-risks-for-2026/,Zero-click vulnerabilities
-REF079,03,Airia,2026,AI Security in 2026: Prompt Injection the Lethal Trifecta and How to Defend,Technical Guide,Airia,https://airia.com/ai-security-in-2026-prompt-injection-the-lethal-trifecta-and-how-to-defend/,Security defense strategies
-REF080,03,TTMS,2026,Training Data Poisoning: The Invisible Cyber Threat of 2026,Technical Guide,TTMS,https://ttms.com/training-data-poisoning-the-invisible-cyber-threat-of-2026/,Data poisoning analysis
-REF081,03,Visioneer IT,2026,Building a Robust AI Governance Framework in 2026,Technical Guide,Visioneer IT,https://www.visioneerit.com/blog/building-a-robust-ai-governance-framework-in-2026,Compliance framework guide
-REF082,03,USCS Institute,2026,What is AI Agent Security Plan 2026? Threats and Strategies Explained,Technical Guide,USCS Institute,https://www.uscsinstitute.org/cybersecurity-insights/blog/what-is-ai-agent-security-plan-2026-threats-and-strategies-explained,Security plan guide
+reference_id,sections,authors,year,title,source,url
+[Akram-2024],13,"Akram, B. et al.",2024,Evaluation-Driven Development of LLM Agents: A Process Model and Reference Architecture,arXiv,https://arxiv.org/html/2411.13768v2
+[Akshathala-2025],"27,30","Akshathala, P. et al.",2025,Beyond Task Completion: An Assessment Framework for Evaluating Agentic AI Systems,arXiv,https://arxiv.org/abs/2512.12791
+[AgentHarm-2025],"1,3,18,25,G","Various",2025,AgentHarm: A Benchmark for Safety Evaluation of LLM Agents,ICLR,https://arxiv.org/pdf/2410.09024
+[AgentAuditor-2025],"12,25,G","Various",2025,AgentAuditor: Human-Level Safety and Security Evaluation for LLM Agents,arXiv/NeurIPS,https://arxiv.org/abs/2506.00641
+[AIMultiple-2025-observability],10,AIMultiple,2025,15 AI Agent Observability Tools: AgentOps Langfuse & Arize,AIMultiple,https://research.aimultiple.com/agentic-monitoring/
+[AIMultiple-2026-deploy],21,AIMultiple,2026,AI Agent Deployment: Steps and Challenges in 2026,AIMultiple,https://research.aimultiple.com/agent-deployment/
+[AIMultiple-2026-orchestration],17,AIMultiple,2026,Compare Top 12 LLM Orchestration Frameworks in 2026,AIMultiple,https://research.aimultiple.com/llm-orchestration/
+[AIMultiple-2026-xai],29,AIMultiple,2026,Explainable AI (XAI) in 2026: Guide to enterprise-ready AI,AIMultiple,https://research.aimultiple.com/xai/
+[Airia-2026],3,Airia,2026,AI Security in 2026: Prompt Injection the Lethal Trifecta and How to Defend,Airia,https://airia.com/ai-security-in-2026-prompt-injection-the-lethal-trifecta-and-how-to-defend/
+[Alphamatch-2026],17,Alphamatch,2026,Top 7 Agentic AI Frameworks in 2026,Alphamatch,https://www.alphamatch.ai/blog/top-agentic-ai-frameworks-2026
+[Amplework-2025],21,Amplework,2025,Build Feedback Loops in Agentic AI for Digital Growth,Amplework,https://www.amplework.com/blog/build-feedback-loops-agentic-ai-continuous-transformation/
+[AnalyticsVidhya-2024],2,Analytics Vidhya,2024,Top 10 AI Agent Trends and Predictions for 2025,Analytics Vidhya,https://www.analyticsvidhya.com/blog/2024/12/ai-agent-trends/
+[Anthropic-2026],19,Anthropic,2026,How enterprises are building AI agents in 2026,Claude Blog,https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
+[Arcade-2026],"1,3,12,22",Arcade.dev,2026,State of AI Agents 2026: 5 Trends Shaping Enterprise Adoption,Arcade.dev,https://blog.arcade.dev/5-takeaways-2026-state-of-ai-agents-claude
+[Ardor-2025],21,Ardor,2025,7 Best Practices for Deploying AI Agents in Production,Ardor,https://ardor.cloud/blog/7-best-practices-for-deploying-ai-agents-in-production
+[ArizeAI-2025-judge],"22,23",Arize AI,2025,LLM-as-a-Judge: The Complete Guide,Arize AI,https://arize.com/llm-as-a-judge/
+[ArizeAI-2025-phoenix],"9,14,15",Arize AI,2025,Phoenix: AI Observability & Evaluation,GitHub,https://github.com/Arize-ai/phoenix
+[ArizeAI-2025-foundry],16,Arize AI,2025,Evaluating and Improving AI Agents at Scale with Microsoft Foundry,Arize AI,https://arize.com/blog/evaluating-and-improving-ai-agents-at-scale-with-microsoft-foundry/
+[ArizeAI-2025-openinference],15,Arize AI,2025,OpenInference,GitHub,https://github.com/Arize-ai/openinference
+[AWS-2025-guardrails],16,AWS,2025,Implement Safeguards for Your Application with Guardrails,AWS Docs,https://docs.aws.amazon.com/bedrock/latest/userguide/agents-guardrail.html
+[AWS-2026-guardrails],16,AWS,2026,Amazon Bedrock Guardrails,AWS,https://aws.amazon.com/bedrock/guardrails/
+[AWS-2025-bedrock-arize],14,AWS,2025,Amazon Bedrock Agents Observability Using Arize AI,AWS Blog,https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agents-observability-using-arize-ai/
+[AWS-2025-cache],20,AWS,2025,Lower cost and latency for AI using Amazon ElastiCache as a semantic cache,AWS Blog,https://aws.amazon.com/blogs/database/lower-cost-and-latency-for-ai-using-amazon-elasticache-as-a-semantic-cache-with-amazon-bedrock/
+[AWS-2026-dashboard],10,AWS,2026,AI Agent performance dashboard - Amazon Connect,AWS Docs,https://docs.aws.amazon.com/connect/latest/adminguide/ai-agent-performance-dashboard.html
+[AzureAI-2025-evaluate],"13,16,C",Microsoft,2025,Agent Evaluation with the Microsoft Foundry SDK,Microsoft Learn,https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/agent-evaluate-sdk
+[AzureAI-2025-metrics],16,Microsoft,2025,Unlocking the Power of Agentic Applications: New Evaluation Metrics,Microsoft DevBlogs,https://devblogs.microsoft.com/foundry/evaluation-metrics-azure-ai-foundry/
+[AzureAI-2025-continuous],16,Microsoft,2025,Continuously Evaluate Your AI Agents,Microsoft Learn,https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/continuous-evaluation-agents
+[AzureAI-2026-trace],9,Microsoft,2026,Trace and Observe AI Agents in Microsoft Foundry,Microsoft Learn,https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/trace-agents-sdk
+[AzureAI-2026-dashboard],10,Microsoft,2026,Monitor AI Agents with Microsoft Foundry Dashboard,Microsoft Learn,https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/how-to-monitor-agents-dashboard
+[Bain-2025],23,Bain & Company,2025,From Pilots to Payoff: Generative AI in Software Development,Bain Technology Report,https://www.bain.com/insights/from-pilots-to-payoff-generative-ai-in-software-development-technology-report-2025/
+[Bhatia-2025-part1],"1,3","Bhatia, N.",2025,Part 1 — The Five Evaluation Gaps Killing Your Agentic AI in Production,Medium,https://medium.com/@nitikab23/the-five-evaluation-gaps-killing-your-agentic-ai-in-production-6796cae4a0a1
+[Bhatia-2025-part2],"1,3,13,22","Bhatia, N.",2025,Part 2 — Solving the Distribution Mismatch,Medium,https://medium.com/@nitikab23/part-2-evaluating-agentic-ai-systems-the-complete-framework-55ceaf86c406
+[Bhatia-2025-part3],"1,3","Bhatia, N.",2025,Part 3 — Solving Coordination Failures,Medium,https://medium.com/@nitikab23/part-3-evaluating-agentic-ai-systems-the-complete-framework-14906cf0ecff
+[Bhatia-2025-part4],"1,3","Bhatia, N.",2025,Part 4 — Solving Quality Assessment at Scale,Medium,https://medium.com/@nitikab23/part-4-evaluating-agentic-ai-systems-the-complete-framework-3173374543cf
+[Bhatia-2025-part5],"1,3,9","Bhatia, N.",2025,Part 5 — Solving Root Cause Diagnosis,Medium,https://medium.com/@nitikab23/part-5-evaluating-agentic-ai-systems-the-complete-framework-solving-root-cause-diagnosis-24da2980203e
+[Bhatia-2025-part6],"1,2,3","Bhatia, N.",2025,Part 6 — Solving Variance and Non-Determinism,Medium,https://medium.com/@nitikab23/part-6-evaluating-agentic-ai-systems-the-complete-framework-solving-variance-and-non-determinism-8f3b5c3b1e3e
+[Bhatia-2025-part7],"1,11","Bhatia, N.",2025,Part 7 — The Complete Evaluation Framework,Medium,https://medium.com/@nitikab23/part-7-evaluating-agentic-ai-systems-the-complete-framework-integration-roadmap-and-production-deployment-7a3b2c1b0d31
+[Bhatia-2025-series],"19,27,30","Bhatia, N.",2025,Evaluating Agentic AI Systems: The Complete Framework (7-part series),Medium,https://medium.com/@nitikab23
+[BluePrism-2026],"2,19",Blue Prism,2026,Future of AI Agents: Top Trends in 2026,Blue Prism,https://www.blueprism.com/resources/blog/future-ai-agents-trends/
+[Braintrust-2025-cicd],13,Braintrust,2025,Best AI Evals Tools for CI/CD in 2025,Braintrust,https://www.braintrust.dev/articles/best-ai-evals-tools-cicd-2025
+[Braintrust-2026-monitoring],"10,14",Braintrust,2026,The 4 best LLM monitoring tools in 2026,Braintrust,https://www.braintrust.dev/articles/best-llm-monitoring-tools-2026
+[CIO-2026],22,CIO.com,2026,The New Org Chart: Unlocking Value with AI-Native Roles in the Agentic Era,CIO.com,https://www.cio.com/article/4060162/the-new-org-chart-unlocking-value-with-ai-native-roles-in-the-agentic-era.html
+[CIS-2026],3,CIS Inc.,2026,The CTO's Strategic Guide to AI Model Drift,CIS,https://www.cisin.com/coffee-break/the-cto-s-strategic-guide-to-ai-model-drift-risk-mitigation-and-operationalizing-trust-in-enterprise-ai.html
+[CloudSecAlliance-2025],23,Cloud Security Alliance,2025,Agentic AI Red Teaming Guide,CSA,https://cloudsecurityalliance.org/artifacts/agentic-ai-red-teaming-guide
+[CMU-SEI-2025],23,CMU SEI,2025,The Challenges of Testing in a Non-Deterministic World,CMU SEI Blog,https://www.sei.cmu.edu/blog/the-challenges-of-testing-in-a-non-deterministic-world/
+[CollinearAI-2025],23,Collinear AI,2025,Gaming the System: Goodhart's Law Exemplified in AI Leaderboard Controversy,Collinear AI Blog,https://blog.collinear.ai/p/gaming-the-system-goodharts-law-exemplified-in-ai-leaderboard-controversy
+[ConfidentAI-2025-deepeval],"1,15,27,30",Confident AI,2025,DeepEval: The LLM Evaluation Framework,DeepEval,https://deepeval.com/docs/getting-started
+[ConfidentAI-2025-metrics],"15,A",Confident AI,2025,AI Agent Evaluation Metrics,DeepEval,https://deepeval.com/guides/guides-ai-agent-evaluation-metrics
+[ConfidentAI-2025-judge],12,Confident AI,2025,LLM-as-a-Judge Simply Explained: The Complete Guide,Confident AI Blog,https://www.confident-ai.com/blog/why-llm-as-a-judge-is-the-best-llm-evaluation-method
+[ConfidentAI-2025-redteam],20,Confident AI,2025,LLM Red Teaming: The Complete Step-By-Step Guide,Confident AI Blog,https://www.confident-ai.com/blog/red-teaming-llms-a-step-by-step-guide
+[ConfidentAI-2025-deepteam],11,Confident AI,2025,DeepTeam: A Framework to Red Team LLMs and LLM Systems,GitHub,https://github.com/confident-ai/deepteam
+[Conversation-2025],2,The Conversation,2025,AI Agents Arrived in 2025 – Here's What Happened and the Challenges Ahead in 2026,The Conversation,https://theconversation.com/ai-agents-arrived-in-2025-heres-what-happened-and-the-challenges-ahead-in-2026-272325
+[Coursera-2025-ibm],26,Coursera,2025,IBM AI Product Manager Professional Certificate,Coursera,https://www.coursera.org/professional-certificates/ibm-ai-product-manager
+[Coursera-2026-agents],26,Coursera,2026,Building AI Agents and Agentic Workflows Specialization,Coursera,https://www.coursera.org/specializations/building-ai-agents-and-agentic-workflows
+[CrewAI-2025],17,CrewAI,2025,Braintrust Integration,CrewAI Docs,https://docs.crewai.com/en/observability/braintrust
+[DAIN-2026],3,DAIN Studios,2026,AI in 2026: Governance as a Competitive Edge,DAIN Studios,https://dainstudios.com/insights/ai-in-2026-governance-as-a-competitive-edge/
+[Datadog-2024-semconv],9,Datadog,2024,Datadog LLM Observability supports OpenTelemetry GenAI Semantic Conventions,Datadog Blog,https://www.datadoghq.com/blog/llm-otel-semantic-convention/
+[Datadog-2025-anomaly],10,Datadog,2025,Anomaly detection predictive correlations: Using AI-assisted metrics monitoring,Datadog Blog,https://www.datadoghq.com/blog/ai-powered-metrics-monitoring/
+[Davies-2026],15,"Davies, D.",2026,The Best LLM Evaluation Tools of 2026,Medium,https://medium.com/online-inference/the-best-llm-evaluation-tools-of-2026-40fd9b654dce
+[Debevoise-2025],23,Debevoise Data Blog,2025,FINRA's 2026 Regulatory Oversight Report: AI and Agent-Based Risks,Debevoise,https://www.debevoisedatablog.com/2025/12/11/finras-2026-regulatory-oversight-report-continued-focus-on-generative-ai-and-emerging-agent-based-risks/
+[Decoder-2025],23,The Decoder,2025,Every Leading AI Agent Failed at Least One Security Test During Red Teaming,The Decoder,https://the-decoder.com/every-leading-ai-agent-failed-at-least-one-security-test-during-a-massive-red-teaming-competition/
+[Deepchecks-2025],1,Deepchecks,2025,Evaluating Agentic AI Systems in Production,Deepchecks,https://www.deepchecks.com/evaluating-agentic-ai-systems-production/
+[DeepLearningAI-2025-agents],26,DeepLearning.AI,2025,Evaluating AI Agents,DeepLearning.AI,https://www.deeplearning.ai/short-courses/evaluating-ai-agents/
+[DeepLearningAI-2025-debug],26,DeepLearning.AI,2025,Evaluating and Debugging Generative AI,DeepLearning.AI,https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/
+[Deloitte-2025-agents],25,Deloitte,2025,AI Agents and Autonomous AI,Deloitte Tech Trends,https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2025/tech-trends-ai-agents-and-autonomous-ai.html
+[Deloitte-2026-strategy],"2,3,10,22,25",Deloitte,2026,Tech Trends 2026: Agentic AI Strategy,Deloitte,https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html
+[Deloitte-2026-cyber],29,Deloitte,2026,The AI dilemma: Securing and leveraging AI for cyber defense,Deloitte Tech Trends,https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/using-ai-in-cybersecurity.html
+[Deloitte-2026-orchestration],2,Deloitte,2026,Unlocking Exponential Value with AI Agent Orchestration,Deloitte,https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html
+[Deloitte-2026-press],2,Deloitte,2026,AI Comes of Age: Deloitte's 17th Annual Tech Trends Report,Deloitte Press,https://www.deloitte.com/us/en/about/press-room/deloitte-tech-trends-2026.html
+[DEVCommunity-2025],13,DEV Community,2025,A Practical Guide to Integrating AI Evals into Your CI/CD Pipeline,DEV.to,https://dev.to/kuldeep_paul/a-practical-guide-to-integrating-ai-evals-into-your-cicd-pipeline-3mlb
+[DevOps-2025-sre],23,DevOps.com,2025,Agentic AI in Observability Platforms: Empowering Autonomous SRE,DevOps.com,https://devops.com/agentic-ai-in-observability-platforms-empowering-autonomous-sre/
+[DevOps-2026],13,DevOps.com,2026,Predict 2026: Why AI Will Force DevOps to Reinvent Itself,DevOps.com,https://devops.com/predict-2026-why-ai-will-force-devops-to-reinvent-itself/
+[DigitalInfoWorld-2025],2,Digital Information World,2025,AI Agents Arrived in 2025 – Here's What Happened,Digital Information World,https://www.digitalinformationworld.com/2025/12/ai-agents-arrived-in-2025-heres-what.html
+[Dynatrace-2025-bedrock],16,Dynatrace,2025,Announcing Amazon Bedrock AgentCore Agent Observability,Dynatrace Blog,https://www.dynatrace.com/news/blog/announcing-amazon-bedrock-agentcore-agent-observability/
+[Dynatrace-2025-predictions],23,Dynatrace,2025,Six Observability Predictions for 2026,Dynatrace Blog,https://www.dynatrace.com/news/blog/six-observability-predictions-for-2026/
+[Edstellar-2026],3,Edstellar,2026,AI Agents: Reliability Challenges & Proven Solutions [2026],Edstellar,https://www.edstellar.com/blog/ai-agent-reliability-challenges
+[eSecurity-2026],3,eSecurity Planet,2026,AI Agent Attacks in Q4 2025 Signal New Risks for 2026,eSecurity Planet,https://www.esecurityplanet.com/artificial-intelligence/ai-agent-attacks-in-q4-2025-signal-new-risks-for-2026/
+[ETHZurich-2024],"3,18,G",ETH Zurich,2024,AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks,NeurIPS/GitHub,https://github.com/ethz-spylab/agentdojo
+[EUAIAct-2024],"29,30",European Commission,2024,EU AI Act - Regulatory Framework for AI,EU,https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+[EUAIAct-2026],29,EU Artificial Intelligence Act,2026,EU AI Act News 2026: Compliance Requirements & Deadlines,EU AI Act,https://artificialintelligenceact.eu/
+[EvidentlyAI-2025-course],26,Evidently AI,2025,LLM evaluations for AI product teams,Evidently AI,https://www.evidentlyai.com/llm-evaluations-course
+[EvidentlyAI-2025-builders],26,Evidently AI,2025,LLM evaluations for AI builders,Evidently AI,https://www.evidentlyai.com/courses
+[EvidentlyAI-2025-benchmarks],18,Evidently AI,2025,10 AI Agent Benchmarks,Evidently AI Blog,https://www.evidentlyai.com/blog/ai-agent-benchmarks
+[EvidentlyAI-2026-synthetic],11,Evidently AI,2026,How to Create LLM Test Datasets with Synthetic Data,Evidently AI,https://www.evidentlyai.com/llm-guide/llm-test-dataset-synthetic-data
+[EvidentlyAI-2026-judge],12,Evidently AI,2026,LLM-as-a-Judge: A Complete Guide to Using LLMs for Evaluations,Evidently AI,https://www.evidentlyai.com/llm-guide/llm-as-a-judge
+[EvilMartians-2025],10,Evil Martians,2025,Debug AI fast with open source library to visualize agent traces,Evil Martians,https://evilmartians.com/chronicles/debug-ai-fast-agent-prism-open-source-library-visualize-agent-traces
+[FinalRoundAI-2025],23,Final Round AI,2025,Vibe Coding: Erasing Software Developers' Skills,Final Round AI,https://www.finalroundai.com/blog/vibe-coding-erasing-software-developers-skills
+[Fullstack-2026],2,Fullstack,2026,Agentic AI vs Traditional AI: Key Differences,Fullstack,https://www.fullstack.com/labs/resources/blog/agentic-ai-vs-traditional-ai-what-sets-ai-agents-apart
+[FutureAGI-2025],24,Future AGI,2025,RAG Evaluation Metrics 2025,Future AGI,https://futureagi.com/blogs/rag-evaluation-metrics-2025
+[FutureSociety-2025],30,The Future Society,2025,How AI Agents Are Governed Under the EU AI Act,The Future Society,https://thefuturesociety.org/aiagentsintheeu/
+[G2-2026-report],"1,2,7,22,23,25,27",G2,2026,G2's Enterprise AI Agents Report: Industry Outlook for 2026,G2,https://learn.g2.com/enterprise-ai-agents-report
+[G2-2026-predictions],"1,2",G2,2026,5 Bold Predictions on the Rise of Agentic AI and the $30B Orchestration Boom,G2,https://learn.g2.com/2026-predictions-agentic-ai
+[Galileo-2025-metrics],"10,13,27,A",Galileo AI,2025,Four New Agent Evaluation Metrics,Galileo AI Blog,https://galileo.ai/blog/four-new-agent-evaluation-metrics
+[Galileo-2025-anomaly],10,Galileo AI,2025,Real-Time Anomaly Detection for Multi-Agent AI Systems,Galileo AI Blog,https://galileo.ai/blog/real-time-anomaly-detection-multi-agent-ai
+[Galileo-2025-observability],11,Galileo AI,2025,The Guide to LLM Observability,Galileo AI Blog,https://www.galileo.ai/blog/the-guide-to-llm-observability
+[Galileo-2025-test],20,Galileo AI,2025,How to Test AI Agents Effectively,Galileo AI Learn,https://galileo.ai/learn/test-ai-agents
+[GAO-2025],24,GAO,2025,AI in Financial Services Report (GAO-25-107197),GAO,https://www.gao.gov/products/gao-25-107197
+[Gartner-2025-40percent],"1,2,22,25,29,30",Gartner,2025,Gartner Predicts 40% of Enterprise Apps Will Feature Task-Specific AI Agents by 2026,Gartner Press,https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026
+[Gartner-2025-canceled],"25,29,30",Gartner,2025,Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027,Gartner Press,https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027
+[Gartner-2025-agentwashing],25,Gartner,2025,Agentwashing and the Real State of Agentic AI,Gartner Research,
+[Gartner-2025-strategic],"25,29",Gartner,2025,Strategic Predictions for 2026,Gartner,https://www.gartner.com/en/articles/strategic-predictions-for-2026
+[GoogleCloud-2025-eval],"11,16",Google Cloud,2025,Evaluate Gen AI Agents,Vertex AI Docs,https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/evaluation-agents
+[GoogleCloud-2025-intro],"11,16",Google Cloud,2025,Introducing Agent Evaluation in Vertex AI Gen AI Evaluation Service,Google Cloud Blog,https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service
+[GoogleCloud-2025-governance],16,Google Cloud,2025,Enhanced Tool Governance in Vertex AI Agent Builder,Google Cloud Blog,https://cloud.google.com/blog/products/ai-machine-learning/new-enhanced-tool-governance-in-vertex-ai-agent-builder
+[GoogleCloud-2025-trust],"22,23",Google Cloud,2025,AI Grew Up and Got a Job: Lessons from 2025 on Agents and Trust,Google Cloud Transform,https://cloud.google.com/transform/ai-grew-up-and-got-a-job-lessons-from-2025-on-agents-and-trust
+[GoogleCloud-2026-trends],"25,27",Google Cloud,2026,AI Agent Trends 2026 Report,Google Cloud,https://cloud.google.com/resources/content/ai-agent-trends-2026
+[GoogleCloud-2026-builder],16,Google Cloud,2026,Vertex AI Agent Builder Overview,Google Cloud Docs,https://docs.cloud.google.com/agent-builder/overview
+[GoogleDeepMind-2025],24,Google DeepMind,2025,Introducing CodeMender: An AI Agent for Code Security,DeepMind Blog,https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/
+[Grafana-2025],15,Grafana,2025,Grafana Tempo,Grafana,https://grafana.com/oss/tempo/
+[Gravitee-2025],21,Gravitee,2025,Canary Releases: A Comprehensive Guide to Safer Deployments,Gravitee Blog,https://www.gravitee.io/blog/comprehensive-guide-to-canary-releases
+[GridDynamics-2025],24,Grid Dynamics,2025,Agentic AI Regulatory Compliance Strategy,Grid Dynamics Blog,https://www.griddynamics.com/blog/agentic-ai-regulatory-compliance-strategy
+[HammingAI-2025],24,Hamming AI,2025,Guide to AI Voice Agents Quality Assurance,Hamming AI,https://hamming.ai/resources/guide-to-ai-voice-agents-quality-assurance
+[HBR-2025],29,Harvard Business Review,2025,6 Cybersecurity Predictions for the AI Economy in 2026,HBR/Palo Alto Networks,https://hbr.org/sponsored/2025/12/6-cybersecurity-predictions-for-the-ai-economy-in-2026
+[Horovits-2025],9,"Horovits, D.",2025,OpenTelemetry for GenAI and the OpenLLMetry project,Medium,https://horovits.medium.com/opentelemetry-for-genai-and-the-openllmetry-project-81b9cea6a771
+[IAPP-2026],3,IAPP,2026,AI Governance in the Agentic Era,IAPP,https://iapp.org/resources/article/ai-governance-in-the-agentic-era
+[IBM-2026-governance],3,IBM,2026,AI Agent Governance: Big Challenges Big Opportunities,IBM Think,https://www.ibm.com/think/insights/ai-agent-governance
+[IBM-2026-trends],29,IBM,2026,The trends that will shape AI and tech in 2026,IBM Think,https://www.ibm.com/think/news/ai-tech-trends-predictions-2026
+[IEEE-2025],11,IEEE Xplore,2025,AI-Powered Multi-Agent Framework for Automated Unit Test Case Generation,IEEE,https://ieeexplore.ieee.org/document/10923987/
+[Index-2026],"1,2,22",Index.dev,2026,50+ Key AI Agent Statistics and Adoption Trends in 2025,Index.dev,https://www.index.dev/blog/ai-agents-statistics
+[InfoWorld-2025],16,InfoWorld,2025,Google Boosts Vertex AI Agent Builder with New Observability and Deployment Tools,InfoWorld,https://www.infoworld.com/article/4085736/google-boosts-vertex-ai-agent-builder-with-new-observability-and-deployment-tools.html
+[Innobu-2026],30,Innobu,2026,AI 2027: Why Tech Elite's Bold Predictions Could Soon Be Reality,Innobu,https://www.innobu.com/en/articles/ai-2027-superintelligence-scenario-analysis
+[InvariantLabs-2024],18,Invariant Labs,2024,AgentDojo: Jointly Evaluate Security and Utility of AI Agents,Invariant Labs Blog,https://invariantlabs.ai/blog/agentdojo
+[Jaeger-2025],15,Jaeger,2025,Jaeger: Open Source Distributed Tracing,Jaeger,https://www.jaegertracing.io/
+[Jung-2024],"1,12,27","Jung, J. et al.",2024,Systematic Biases in LLM-as-Judge Evaluation,arXiv,https://arxiv.org/abs/2404.07143
+[Kaspersky-2025],23,Kaspersky,2025,Vibe Coding 2025 Risks,Kaspersky Blog,https://www.kaspersky.com/blog/vibe-coding-2025-risks/54584/
+[Kellton-2026],2,Kellton,2026,Agentic AI Trends 2026: Future of Agentic AI Innovations,Kellton Blog,https://www.kellton.com/kellton-tech-blog/agentic-ai-trends-2026
+[KenHuang-2026],30,Ken Huang,2026,My Top 10 Predictions for Agentic AI in 2026,Substack,https://kenhuangus.substack.com/p/my-top-10-predictions-for-agentic
+[Kinde-2025],12,Kinde,2025,LLM-as-a-Judge Done Right: Calibrating Guarding & Debiasing Your Evaluators,Kinde Learn,https://kinde.com/learn/ai-for-software-engineering/best-practice/llm-as-a-judge-done-right-calibrating-guarding-debiasing-your-evaluators/
+[Kolekar-2026],17,"Kolekar, R.",2026,Production RAG in 2026: LangChain vs LlamaIndex,Rahul Kolekar Blog,https://rahulkolekar.com/production-rag-in-2026-langchain-vs-llamaindex/
+[Kubiya-2025],21,Kubiya,2025,AI Agent Deployment: Frameworks & Best Practices,Kubiya Blog,https://www.kubiya.ai/blog/ai-agent-deployment
+[LabelYourData-2026],12,Label Your Data,2026,LLM as a Judge: A 2026 Guide to Automated Model Assessment,Label Your Data,https://labelyourdata.com/articles/llm-as-a-judge
+[LakeFS-2026],14,LakeFS,2026,LLM Observability Tools: 2026 Comparison,LakeFS Blog,https://lakefs.io/blog/llm-observability-tools/
+[Lakera-2026],3,Lakera,2026,Indirect Prompt Injection: The Hidden Threat Breaking Modern AI Systems,Lakera Blog,https://www.lakera.ai/blog/indirect-prompt-injection
+[LangChain-2025-state],"1,2,3,6,9,10,12,13,17,19,21,22,23,27,28,29,30,A",LangChain,2025,State of AI Agents,LangChain,https://www.langchain.com/state-of-agent-engineering
+[LangChain-2025-langsmith],"14,17",LangChain,2025,LangSmith Observability,LangChain,https://www.langchain.com/langsmith/observability
+[LangChain-2025-community],27,LangChain,2025,The LangChain Community,LangChain,https://www.langchain.com/community
+[LangChain-2025-interrupt],27,LangChain,2025,Interrupt 2025 Recap,LangChain Blog,https://blog.langchain.com/interrupt-2025-recap/
+[Langfuse-2025-docs],"1,14,27,B",Langfuse,2025,Langfuse: Open Source LLM Engineering Platform,Langfuse,https://langfuse.com/
+[Langfuse-2025-otel],14,Langfuse,2025,Open Source LLM Observability via OpenTelemetry,Langfuse,https://langfuse.com/integrations/native/opentelemetry
+[Langfuse-2025-llamaindex],17,Langfuse,2025,Observability for LlamaIndex with Langfuse Integration,Langfuse,https://langfuse.com/integrations/frameworks/llamaindex
+[LevelBlue-2025],29,LevelBlue,2025,Predictions 2026: Surge in Agentic AI for Attacks and Defenses,LevelBlue Blog,https://levelblue.com/blogs/levelblue-blog/predictions-2026-surge-in-agentic-ai-for-attacks-and-defenses/
+[LevoAI-2025],20,Levo AI,2025,What is AI Red Teaming: Examples Tools & Best Practices,Levo AI,https://www.levo.ai/resources/blogs/ai-red-teaming
+[liteLLM-2025],9,liteLLM,2025,OpenTelemetry - Tracing LLMs with any observability tool,liteLLM Docs,https://docs.litellm.ai/docs/observability/opentelemetry_integration
+[Liu-2023],18,"Liu, X. et al.",2023,AgentBench: Evaluating LLMs as Agents,arXiv,https://arxiv.org/abs/2308.03688
+[Liu-2025],29,"Liu, Y. et al.",2025,HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning,arXiv,https://arxiv.org/abs/2508.12782
+[MachineLearnMastery-2026],2,Machine Learning Mastery,2026,7 Agentic AI Trends to Watch in 2026,ML Mastery,https://machinelearningmastery.com/7-agentic-ai-trends-to-watch-in-2026/
+[Manheim-2019],23,"Manheim, D. & Garrabrant, S.",2019,Categorizing Variants of Goodhart's Law,arXiv,https://arxiv.org/abs/1803.04585
+[Mastra-2026],17,Mastra,2026,Braintrust Exporter for AI Tracing,Mastra Docs,https://mastra.ai/docs/observability/ai-tracing/exporters/braintrust
+[MasterOfCode-2025-eval],"13,23",Master of Code,2025,AI Evaluation Metrics 2025: Tested by Conversation Experts,Master of Code Blog,https://masterofcode.com/blog/ai-agent-evaluation
+[MasterOfCode-2026],"1,2,3,22",Master of Code,2026,150+ AI Agent Statistics [2026],Master of Code Blog,https://masterofcode.com/blog/ai-agent-statistics
+[Maven-2026-leaders],26,Maven,2026,AI Agents for Product Leaders Certification,Maven,https://maven.com/marily-nika/ai-agent-certification
+[Maven-2026-pm],26,Maven,2026,AI Product Management Certification,Maven,https://maven.com/product-faculty/ai-product-management-certification
+[Maven-2026-agentic],26,Maven,2026,Agentic AI Product Management Certification,Maven,https://maven.com/mahesh-yadav/genaipm
+[MaximAI-2025-eval],"1,10",Maxim AI,2025,Evaluating Agentic AI Systems: Frameworks Metrics and Best Practices,Maxim AI,https://www.getmaxim.ai/articles/evaluating-agentic-ai-systems-frameworks-metrics-and-best-practices/
+[MaximAI-2025-strategies],19,Maxim AI,2025,How to Evaluate AI Agents: Comprehensive Strategies,Maxim AI,https://www.getmaxim.ai/articles/how-to-evaluate-ai-agents-comprehensive-strategies-for-reliable-high-quality-agentic-systems/
+[MaximAI-2025-stress],20,Maxim AI,2025,How to Stress Test AI Agents Before Shipping to Production,Maxim AI,https://www.getmaxim.ai/articles/how-to-stress-test-ai-agents-before-shipping-to-production/
+[MaximAI-2025-frameworks],17,Maxim AI,2025,Best AI Agent Frameworks 2025,Maxim AI,https://www.getmaxim.ai/articles/top-5-ai-agent-frameworks-in-2025-a-practical-guide-for-ai-builders/
+[MaximAI-2026-debugging],9,Maxim AI,2026,The 5 Best Agent Debugging Platforms in 2026,Maxim AI,https://www.getmaxim.ai/articles/the-5-best-agent-debugging-platforms-in-2026/
+[MaximAI-2026-observability],10,Maxim AI,2026,Top 5 AI Agent Observability Platforms in 2026,Maxim AI,https://www.getmaxim.ai/articles/top-5-ai-agent-observability-platforms-in-2026/
+[MaximAI-2026-reliability],10,Maxim AI,2026,Top 5 Tools for Monitoring and Improving AI Agent Reliability (2026),Maxim AI,https://www.getmaxim.ai/articles/top-5-tools-for-monitoring-and-improving-ai-agent-reliability-2026/
+[MaximAI-2026-debug],10,Maxim AI,2026,Best Tools to Monitor and Debug AI Agents in Production,Maxim AI,https://www.getmaxim.ai/articles/best-tools-to-monitor-and-debug-ai-agents-in-production/
+[MaximAI-2026-rag],15,Maxim AI,2026,Top 5 RAG Evaluation Platforms in 2026,Maxim AI,https://www.getmaxim.ai/articles/top-5-rag-evaluation-platforms-in-2026/
+[McKinsey-2026],"19,23",McKinsey & Company,2026,The agentic organization: Contours of the next paradigm for the AI era,McKinsey,https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-the-ai-era
+[MDPI-2025],25,MDPI,2025,Prompt Injection Attacks and Defenses in LLM-Integrated Applications: A Comprehensive Review,MDPI Information,https://www.mdpi.com/2078-2489/17/1/54
+[MetaAI-2023],18,Meta AI,2023,GAIA: A Benchmark for General AI Assistants,Meta AI Research,https://ai.meta.com/research/publications/gaia-a-benchmark-for-general-ai-assistants/
+[MetadataWeekly-2026],3,Metadata Weekly,2026,The 2026 AI Reality Check,Metadata Weekly,https://metadataweekly.substack.com/p/the-2026-ai-reality-check-its-the
+[Mialon-2023],18,"Mialon, G. et al.",2023,GAIA: A Benchmark for General AI Assistants,arXiv,https://arxiv.org/abs/2311.12983
+[Microsoft-2025-redteam],20,Microsoft,2025,Planning red teaming for LLMs,Microsoft Learn,https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/red-teaming
+[Middleware-2026],10,Middleware,2026,How AI-Based Insights Can Change The Observability in 2026,Middleware Blog,https://middleware.io/blog/how-ai-based-insights-can-change-the-observability/
+[MITTechReview-2026],29,MIT Technology Review,2026,Mechanistic interpretability: 10 Breakthrough Technologies 2026,MIT Tech Review,https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/
+[MLflow-2025-tracing],"13,14",MLflow,2025,MLflow Tracing for LLM Observability,MLflow Docs,https://mlflow.org/docs/latest/genai/tracing/
+[MLflow-2025-otel],14,MLflow,2025,Full OpenTelemetry Support in MLflow Tracing,MLflow Blog,https://mlflow.org/blog/opentelemetry-tracing-support
+[MLflow-2025-feedback],21,MLflow,2025,Feedback Collection,MLflow Docs,https://mlflow.org/docs/3.2.0/genai/assessments/feedback/
+[MLOps-2025],27,MLOps Community,2025,Agents in Production 2025,MLOps Community,https://home.mlops.community/public/events/agentsinproduction2025
+[MonteCarlo-2025],10,Monte Carlo,2025,The 17 Best AI Observability Tools In December 2025,Monte Carlo Blog,https://www.montecarlodata.com/blog-best-ai-observability-tools/
+[MorganLewis-2025],24,Morgan Lewis,2025,AI in Healthcare: Opportunities Enforcement Risks and Compliance,Morgan Lewis,https://www.morganlewis.com/pubs/2025/07/ai-in-healthcare-opportunities-enforcement-risks-and-false-claims-and-the-need-for-ai-specific-compliance
+[Multimodal-2026],"1,2,3,22",Multimodal.dev,2026,10 AI Agent Statistics for 2026: Adoption Success Rates & More,Multimodal.dev,https://www.multimodal.dev/post/agentic-ai-statistics
+[n8n-2025],21,n8n,2025,15 best practices for deploying AI agents in production,n8n Blog,https://blog.n8n.io/best-practices-for-deploying-ai-agents-in-production/
+[NatureComm-2025],24,Nature Communications,2025,SourceCheckup: A Framework for Evaluating LLM Citation Accuracy,Nature Communications,https://www.nature.com/articles/s41467-025-58551-6
+[Netguru-2025],23,Netguru,2025,Testing AI Agents,Netguru Blog,https://www.netguru.com/blog/testing-ai-agents
+[Newsweek-2025],23,Newsweek,2025,AI Security Risks Are Outpacing Human Oversight,Newsweek,https://www.newsweek.com/nw-ai/ai-security-risks-are-outpacing-human-oversight-11310461
+[NIST-2023],30,NIST,2023,AI Risk Management Framework,NIST,https://www.nist.gov/itl/ai-risk-management-framework
+[NIST-2025],"1,2,3,18",NIST,2025,Technical Blog: Strengthening AI Agent Hijacking Evaluations,NIST,https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations
+[NIX-2026],9,N-iX,2026,AI agent observability: The new standard for enterprise AI in 2026,N-iX,https://www.n-ix.com/ai-agent-observability/
+[NVIDIA-2025],11,NVIDIA,2025,Building AI Agents to Automate Software Test Case Creation,NVIDIA Blog,https://developer.nvidia.com/blog/building-ai-agents-to-automate-software-test-case-creation/
+[ODSC-2025-evaluation],"3,19",ODSC,2025,Mastering AI Evaluation in 2025: Lessons from Ian Cairns,ODSC,https://opendatascience.com/mastering-ai-evaluation-in-2025-lessons-from-ian-cairns-on-building-reliable-systems/
+[ODSC-2025-podcast],28,ODSC,2025,Ai X Podcast - The Hardest Problem in AI: Evaluation in 2025,Apple Podcasts,https://podcasts.apple.com/us/podcast/the-hardest-problem-in-ai-evaluation-in-2025-with-ian-cairns/id1721516836
+[Omega-2025-benchmarks],28,O-mega,2025,Best AI Agent Evaluation Benchmarks: 2025 Complete Guide,O-mega,https://o-mega.ai/articles/the-best-ai-agent-evals-and-benchmarks-full-2025-guide
+[Omega-2026-observability],"10,14",O-mega,2026,Top 5 AI Agent Observability Platforms 2026 Guide,O-mega,https://o-mega.ai/articles/top-5-ai-agent-observability-platforms-the-ultimate-2026-guide
+[Omega-2026-benchmarks],18,O-mega,2026,Top 10 AI Benchmarks for Real Work Performance (2026),O-mega,https://o-mega.ai/articles/top-10-ai-benchmarks-for-economically-valuable-work-2026
+[OneReach-2026-stats],"1,22",OneReach.ai,2026,Agentic AI Stats 2026: Adoption Rates ROI & Market Trends,OneReach.ai,https://onereach.ai/blog/agentic-ai-adoption-rates-roi-market-trends/
+[OneReach-2026-practices],19,OneReach AI,2026,Best Practices for AI Agent Implementations: Enterprise Guide 2026,OneReach AI,https://onereach.ai/blog/best-practices-for-ai-agent-implementations/
+[OpenAI-2024-swebench],18,OpenAI,2024,Introducing SWE-bench Verified,OpenAI,https://openai.com/index/introducing-swe-bench-verified/
+[OpenAI-2025-evals],"15,27",OpenAI,2025,Working with Evals,OpenAI Platform,https://platform.openai.com/docs/guides/evals
+[OpenAI-2025-evals-drive],15,OpenAI,2025,How Evals Drive the Next Chapter in AI for Businesses,OpenAI,https://openai.com/index/evals-drive-next-chapter-of-ai/
+[OpenAI-2025-atlas],29,OpenAI,2025,Continuously hardening ChatGPT Atlas against prompt injection attacks,OpenAI,https://openai.com/index/hardening-atlas-against-prompt-injection/
+[OpenLIT-2025],15,OpenLIT,2025,OpenLIT: OpenTelemetry-native GenAI Observability,GitHub,https://github.com/openlit/openlit
+[OpenTelemetry-2024],9,OpenTelemetry,2024,OpenTelemetry for Generative AI,OpenTelemetry Blog,https://opentelemetry.io/blog/2024/otel-generative-ai/
+[OpenTelemetry-2025-docs],"9,B",OpenTelemetry,2025,OpenTelemetry Official Documentation,OpenTelemetry,https://opentelemetry.io/
+[OpenTelemetry-2025-semconv],"9,28,29,30",OpenTelemetry,2025,Semantic conventions for generative AI systems,OpenTelemetry,https://opentelemetry.io/docs/specs/semconv/gen-ai/
+[OpenTelemetry-2025-agent],"9,23,28,29",OpenTelemetry,2025,AI Agent Observability - Evolving Standards and Best Practices,OpenTelemetry Blog,https://opentelemetry.io/blog/2025/ai-agent-observability/
+[OpenTelemetry-2025-spans],28,OpenTelemetry,2025,Semantic Conventions for GenAI agent and framework spans,OpenTelemetry,https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-agent-spans/
+[OrielStat-2025],24,Oriel STAT A MATRIX,2025,FDA 2025 Guidance on AI-Enabled Medical Devices,Oriel STAT,https://www.orielstat.com/blog/fda-2025-guidance-ai-enabled-medical-devices/
+[Orlando-2025],23,Orlando Sentinel,2025,Commentary: Meet the AI Agents of 2026—Ambitious Overhyped and Still in Training,Orlando Sentinel,https://www.orlandosentinel.com/2025/12/29/commentary-from-the-left-meet-the-ai-agents-of-2026-ambitious-overhyped-and-still-in-training/
+[Osmani-2025],23,"Osmani, A.",2025,Vibe Coding Is Not the Same as AI-Assisted Engineering,Medium,https://medium.com/@addyosmani/vibe-coding-is-not-the-same-as-ai-assisted-engineering-3f81088d5b98
+[Penligent-2026],20,Penligent,2026,The 2026 Ultimate Guide to AI Penetration Testing,Penligent,https://www.penligent.ai/hackinglabs/the-2026-ultimate-guide-to-ai-penetration-testing-the-era-of-agentic-red-teaming/
+[PillarSecurity-2025],11,Pillar Security,2025,Practical AI Red Teaming: Power of Multi-Turn Tests vs Single-Turn Evaluations,Pillar Security,https://www.pillar.security/blog/practical-ai-red-teaming-the-power-of-multi-turn-tests-vs-single-turn-evaluations
+[Plivo-2025],24,Plivo,2025,Contact Center Statistics and Benchmarks 2025,Plivo Blog,https://www.plivo.com/blog/contact-center-statistics-benchmarks-2025/
+[PMC-2025],24,PMC,2025,Healthcare AI Policy Checklist Methodology,PMC,https://pmc.ncbi.nlm.nih.gov/articles/PMC12465464/
+[Portkey-2025],"9,10",Portkey,2025,The complete guide to LLM observability for 2026,Portkey Blog,https://portkey.ai/blog/the-complete-guide-to-llm-observability/
+[PracticalDevSecOps-2026],3,Practical DevSecOps,2026,MCP Security Vulnerabilities,Practical DevSecOps,https://www.practical-devsecops.com/mcp-security-vulnerabilities/
+[Pragmatic-2025],26,Pragmatic Institute,2025,AI Product Manager Certification,Pragmatic Institute,https://www.pragmaticinstitute.com/product/ai-product-management-expert-certification/
+[PragmaticCoders-2026],2,Pragmatic Coders,2026,200+ AI Agent Statistics for 2026,Pragmatic Coders,https://www.pragmaticcoders.com/resources/ai-agent-statistics
+[ProductSchool-2025],26,Product School,2025,AI Evals Certification,Product School,https://productschool.com/certifications/ai-evals
+[Promwad-2026],10,Promwad,2026,AI-Assisted Debugging 2026: Anomaly Detection in Firmware,Promwad,https://promwad.com/news/ai-assisted-debugging-2026-anomaly-detection-firmware
+[QAwerk-2025],20,QAwerk,2025,The Future of AI Agent Testing: Trends to Watch in 2025,QAwerk Blog,https://qawerk.com/blog/ai-agent-testing-trends/
+[Quidget-2025],24,Quidget,2025,The 6 Metrics That Actually Matter for AI Customer Support in 2025,Quidget Blog,https://quidget.ai/blog/ai-automation/the-6-metrics-that-actually-matter-for-ai-customer-support-in-2025/
+[RAGAS-2025],"15,B",RAGAS,2025,Ragas: Automated Evaluation of Retrieval Augmented Generation,RAGAS Docs,https://docs.ragas.io/en/stable/
+[Rannaberg-2025],2,Carl Rannaberg,2025,State of AI Agents in 2025: A Technical Analysis,Medium,https://carlrannaberg.medium.com/state-of-ai-agents-in-2025-5f11444a5c78
+[RASEval-2025],"1,2,3,18,25,G",Various,2025,RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents,arXiv,https://arxiv.org/html/2506.15253v1
+[RetellAI-2025],24,Retell AI,2025,AI Voice Agent Latency Face-Off 2025,Retell AI,https://www.retellai.com/resources/ai-voice-agent-latency-face-off-2025
+[RTSLabs-2026],24,RTS Labs,2026,AI Agents for Finance,RTS Labs,https://rtslabs.com/ai-agents-for-finance/
+[Salesmate-2026],"1,2,3,30",Salesmate,2026,AI agent trends for 2026: 7 shifts to watch,Salesmate Blog,https://www.salesmate.io/blog/future-of-ai-agents/
+[ScaleAI-2026],18,Scale AI,2026,SWE-Bench Pro: Long-Horizon Software Engineering Tasks,Scale AI,https://scale.com/leaderboard/swe_bench_pro_public
+[SecondTalent-2026],"1,2",Second Talent,2026,50+ AI Agents Statistics Relevant For 2026,Second Talent,https://www.secondtalent.com/resources/ai-agents-statistics/
+[SecurityWeek-2025],23,SecurityWeek,2025,Vibe Coding's Real Problem Isn't Bugs—It's Judgment,SecurityWeek,https://www.securityweek.com/vibe-codings-real-problem-isnt-bugs-its-judgment/
+[Shumaker-2025],24,Shumaker,2025,Generative AI in Financial Services: A Practical Compliance Playbook for 2026,Shumaker,https://www.shumaker.com/insight/client-alert-generative-artificial-intelligence-in-financial-services-a-practical-compliance-playbook-for-2026/
+[Shukla-2025],"27,30","Shukla, M.",2025,Evaluating Agentic AI Systems: A Balanced Framework,SSRN,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5402054
+[SigNoz-2025],15,SigNoz,2025,SigNoz: Open Source Observability Platform,SigNoz,https://signoz.io/
+[SigNoz-2026],9,SigNoz,2026,OpenTelemetry Agents - The Complete Beginner's Guide (2026),SigNoz Blog,https://signoz.io/blog/opentelemetry-agent/
+[SilentFailures-2025],3,arXiv,2025,Detecting Silent Failures in Multi-Agentic AI Trajectories,arXiv,https://arxiv.org/html/2511.04032v1
+[Softcery-2025],17,Softcery,2025,14 AI Agent Frameworks Compared,Softcery Lab,https://softcery.com/lab/top-14-ai-agent-frameworks-of-2025-a-founders-guide-to-building-smarter-systems
+[Sombra-2026-security],3,Sombra,2026,LLM Security Risks in 2026,Sombra Blog,https://sombrainc.com/blog/llm-security-risks-2026
+[Sombra-2026-regulations],30,Sombra Inc.,2026,An Ultimate Guide to AI Regulations and Governance in 2026,Sombra Blog,https://sombrainc.com/blog/ai-regulations-2026-eu-ai-act
+[Splunk-2026],30,Splunk,2026,Security Predictions 2026: What Agentic AI Means for the SOC,Splunk Blog,https://www.splunk.com/en_us/blog/leadership/security-predictions-2026-what-agentic-ai-means-for-the-people-running-the-soc.html
+[Springer-2025],29,Springer,2025,Agentic AI: comprehensive survey of architectures applications and future directions,AI Review,https://link.springer.com/article/10.1007/s10462-025-11422-4
+[Stanford-2025-cs329t],26,Stanford University,2025,CS329T: Trustworthy Machine Learning,Stanford,https://web.stanford.edu/class/cs329t/
+[Stanford-2025-cs329a],26,Stanford University,2025,CS329A: Self-Improving AI Agents,Stanford,https://cs329a.stanford.edu/
+[StartupHub-2025],23,Startup Hub AI,2025,Agentforce Elevates AI Agent Evaluation Standards,Startup Hub AI,https://www.startuphub.ai/ai-news/ai-research/2025/agentforce-elevates-ai-agent-evaluation-standards/
+[Statsig-2025],14,Statsig,2025,Arize Phoenix Overview: Open-Source AI Observability,Statsig,https://www.statsig.com/perspectives/arize-phoenix-ai-observability
+[StellarCyber-2026],3,Stellar Cyber,2026,Top Agentic AI Security Threats in 2026,Stellar Cyber,https://stellarcyber.ai/learn/agentic-ai-securiry-threats/
+[Symflower-2025],18,Symflower,2025,Benchmarks Evaluating LLM Agents for Software Development,Symflower Blog,https://symflower.com/en/company/blog/2025/benchmarks-llm-agents/
+[TakeGoodhart-2025],23,arXiv,2025,Take Goodhart Seriously,arXiv,https://arxiv.org/abs/2510.02840
+[testRigor-2025],13,testRigor,2025,Different Evals for Agentic AI: Methods Metrics & Best Practices,testRigor Blog,https://testrigor.com/blog/different-evals-for-agentic-ai/
+[Thakker-2025],26,"Thakker, Y.",2025,Evaluating AI Agents,Udemy,https://www.udemy.com/course/evaluating-ai-agents/
+[TheNewStack-2026],28,The New Stack,2026,Can OpenTelemetry Save Observability in 2026?,The New Stack,https://thenewstack.io/can-opentelemetry-save-observability-in-2026/
+[THUDM-2024],18,THUDM,2024,AgentBench: Evaluating LLMs as Agents,ICLR/GitHub,https://github.com/THUDM/AgentBench
+[TileDB-2026],2,TileDB,2026,What is Agentic AI: A Comprehensive 2026 Guide,TileDB Blog,https://www.tiledb.com/blog/what-is-agentic-ai
+[TimesFreePress-2026],23,Times Free Press,2026,Deborah Levine: AI Still Needs Human Oversight in 2026,Times Free Press,https://www.timesfreepress.com/news/2026/jan/08/deborah-levine-ai-still-needs-human-oversight-in/
+[Traceloop-2025],"9,14,15,B",Traceloop,2025,OpenLLMetry: Open-source observability for GenAI/LLM,GitHub,https://github.com/traceloop/openllmetry
+[TrueFoundry-2025],3,TrueFoundry,2025,Monitoring & Observability for LLM RAG and Agentic AI Apps,TrueFoundry Blog,https://www.truefoundry.com/blog/monitoring-observability-for-llm-rag-and-agentic-ai-apps
+[Truyo-2026],3,Truyo,2026,AI Governance 2026: The Struggle to Enable Scale Without Losing Control,Truyo,https://truyo.com/ai-governance-2026-the-struggle-to-enable-scale-without-losing-control/
+[TTMS-2026],3,TTMS,2026,Training Data Poisoning: The Invisible Cyber Threat of 2026,TTMS,https://ttms.com/training-data-poisoning-the-invisible-cyber-threat-of-2026/
+[Twilio-2025],24,Twilio,2025,Guide to Core Latency for AI Voice Agents,Twilio Blog,https://www.twilio.com/en-us/blog/developers/best-practices/guide-core-latency-ai-voice-agents
+[TWIML-2025],27,TWIML AI,2025,The TWIML AI Podcast,TWIML AI,https://twimlai.com/podcast/twimlai/
+[UCBerkeley-2025-agentic],26,UC Berkeley RDI,2025,CS294/194-196: Agentic AI,UC Berkeley,https://rdi.berkeley.edu/agentic-ai/f25
+[UCBerkeley-2025-adv],26,UC Berkeley RDI,2025,CS294/194-280: Advanced Large Language Model Agents,UC Berkeley,https://rdi.berkeley.edu/adv-llm-agents/sp25
+[UCBerkeley-2025-summit],27,UC Berkeley RDI,2025,Agentic AI Summit 2025,UC Berkeley,https://rdi.berkeley.edu/events/agentic-ai-summit
+[UCBerkeley-2025-agentx],27,UC Berkeley RDI,2025,AgentX AgentBeats Competition,UC Berkeley,https://rdi.berkeley.edu/agentx-agentbeats
+[UKAISI-2025],20,UK AI Safety Institute,2025,The Inspect Sandboxing Toolkit,UK AISI,https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations
+[UKAISI-2025-inspect],29,UK AI Safety Institute,2025,Inspect: Open-Source AI Evaluation Framework,GitHub,https://github.com/UKGovernmentBEIS/inspect_ai
+[USCS-2026],3,USCS Institute,2026,What is AI Agent Security Plan 2026?,USCS Institute,https://www.uscsinstitute.org/cybersecurity-insights/blog/what-is-ai-agent-security-plan-2026-threats-and-strategies-explained
+[Vellum-2025],11,Vellum,2025,Synthetic Test Case Generation for LLM Evaluation,Vellum Blog,https://www.vellum.ai/blog/synthetic-test-case-generation-for-llm-evaluation
+[VentureBeat-2025-redteam],23,VentureBeat,2025,Red Teaming LLMs: The Harsh Truth About the AI Security Arms Race,VentureBeat,https://venturebeat.com/security/red-teaming-llms-harsh-truth-ai-security-arms-race
+[VentureBeat-2025-injection],29,VentureBeat,2025,OpenAI admits prompt injection is here to stay as enterprises lag on defenses,VentureBeat,https://venturebeat.com/security/openai-admits-that-prompt-injection-is-here-to-stay
+[Veracode-2025],24,Veracode,2025,GenAI Code Security Report,Veracode Blog,https://www.veracode.com/blog/genai-code-security-report/
+[VictoriaMetrics-2025],9,VictoriaMetrics,2025,AI Agents Observability with OpenTelemetry and the VictoriaMetrics Stack,VictoriaMetrics Blog,https://victoriametrics.com/blog/ai-agents-observability/
+[VisioneerIT-2026],3,Visioneer IT,2026,Building a Robust AI Governance Framework,Visioneer IT Blog,https://www.visioneerit.com/blog/building-a-robust-ai-governance-framework-in-2026
+[WandB-2025],19,Weights & Biases,2025,AI agent evaluation: Metrics strategies and best practices,W&B,https://wandb.ai/onlineinference/genai-research/reports/AI-agent-evaluation-Metrics-strategies-and-best-practices--VmlldzoxMjM0NjQzMQ
+[Warmly-2026],"1,2",Warmly,2026,35+ Powerful AI Agents Statistics: Adoption & Insights [2026],Warmly,https://www.warmly.ai/p/blog/ai-agents-statistics
+[WebProNews-2026],"1,2,3",WebProNews,2026,2026 AI Agentic Systems: Reshaping Industries Amid Challenges,WebProNews,https://www.webpronews.com/2026-ai-agentic-systems-reshaping-industries-amid-challenges/
+[Wolfe-2025],12,"Cameron R. Wolfe, Ph.D.",2025,Using LLMs for Evaluation,Substack,https://cameronrwolfe.substack.com/p/llm-as-a-judge
+[Zheng-2023],C,"Zheng, L. et al.",2023,Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,arXiv,https://arxiv.org/abs/2306.05685
+[Zhou-2025],23,"Zhou, Y.",2025,2025 Overpromised AI Agents: 2026 Demands Agentic Engineering,Medium,https://medium.com/generative-ai-revolution-ai-native-transformation/2025-overpromised-ai-agents-2026-demands-agentic-engineering-5fbf914a9106
+[Zyrix-2025],20,Zyrix,2025,Multi-Agent AI Testing Guide 2025,Zyrix Blog,https://zyrix.ai/blogs/multi-agent-ai-testing-guide-2025/
+[AgentDrift-2026],3,arXiv,2026,Agent Drift: Quantifying Behavioral Degradation in Multi-Agent LLM Systems,arXiv,https://arxiv.org/html/2601.04170v1
+[AgentaAI-2025],9,Agenta,2025,The AI Engineer's Guide to LLM Observability with OpenTelemetry,Agenta Blog,https://agenta.ai/blog/the-ai-engineer-s-guide-to-llm-observability-with-opentelemetry
+[AgentaAI-2025-judge],23,Agenta AI,2025,LLM-as-a-Judge Guide: Best Practices for LLM Evaluation,Agenta AI Blog,https://agenta.ai/blog/llm-as-a-judge-guide-to-llm-evaluation-best-practices
+[AgentAsJudge-2024],25,arXiv,2024,Agent-as-a-Judge: Evaluate Agents with Agents,arXiv,https://arxiv.org/abs/2410.10934
+[CLEAR-2025],25,arXiv,2025,CLEAR Framework: Beyond Accuracy in Agentic AI Evaluation,arXiv,https://arxiv.org/abs/2511.14136
+[ACM-2025-survey],25,ACM Computing Surveys,2025,AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways,ACM,https://dl.acm.org/doi/10.1145/3716628
+[ACM-2025-kdd],29,ACM SIGKDD,2025,Evaluation and Benchmarking of LLM Agents: A Survey,KDD 2025,https://dl.acm.org/doi/10.1145/3711896.3736570
+[arXiv-2025-security],25,arXiv,2025,Agentic AI Security: Threats Defenses and Evaluation,arXiv,https://arxiv.org/html/2510.23883v1
+[arXiv-2024-survey],12,arXiv,2024,A Survey on LLM-as-a-Judge,arXiv,https://arxiv.org/html/2411.15594v6
+[arXiv-2025-scoring],12,arXiv,2025,Evaluating Scoring Bias in LLM-as-a-Judge,arXiv,https://arxiv.org/html/2506.22316v1
+[arXiv-2025-reporting],12,arXiv,2025,How to Correctly Report LLM-as-a-Judge Evaluations,arXiv,https://arxiv.org/html/2511.21140v1
+[arXiv-2025-benchmarking],11,arXiv,2025,Evaluation and Benchmarking of LLM Agents: A Survey,arXiv,https://arxiv.org/html/2507.21504v1
+[arXiv-2024-goat],11,arXiv,2024,Automated Red Teaming with GOAT: the Generative Offensive Agent Tester,arXiv,https://arxiv.org/html/2410.01606v1
+[arXiv-2024-holistic],11,arXiv,2024,Holistic Automated Red Teaming for LLMs through Top-Down Test Case Generation,arXiv,https://arxiv.org/html/2409.16783v1
+[arXiv-2025-redcoder],11,arXiv,2025,RedCoder: Automated Multi-Turn Red Teaming for Code LLMs,arXiv,https://arxiv.org/html/2507.22063v1
+[arXiv-2025-nl2repo],29,arXiv,2025,NL2Repo-Bench: Long-Horizon Repository Generation Evaluation,arXiv,https://arxiv.org/abs/2512.12730
+[arXiv-2025-citation],24,arXiv,2025,Citation Classification with Fine-Tuned Models,arXiv,https://arxiv.org/html/2511.16198v1
+[AHA-2025],24,American Heart Association,2025,New Guidance Offered for Responsible AI Use in Health Care,AHA Newsroom,https://newsroom.heart.org/news/new-guidance-offered-for-responsible-ai-use-in-health-care
+[Databricks-2025],21,Databricks,2025,MLflow 3.0: Build Evaluate and Deploy Generative AI with Confidence,Databricks Blog,https://www.databricks.com/blog/mlflow-30-unified-ai-experimentation-observability-and-governance

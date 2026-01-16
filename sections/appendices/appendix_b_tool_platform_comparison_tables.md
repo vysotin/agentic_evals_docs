@@ -273,4 +273,4 @@ This appendix provides comprehensive comparison tables for AI agent evaluation a
 ---
 
 **Navigation:**
-← [Previous Appendix: Comprehensive Metric Definitions Reference](appendix_a_comprehensive_metric_definitions_reference.md) | [Table of Contents](../../README.md) | [Next Appendix: Example Test Cases](appendix_c_example_test_cases.md) →
+← [Previous Appendix: Comprehensive Metric Definitions Reference](appendix_a_comprehensive_metric_definitions_reference.md) | [Table of Contents](../../README.md) | [Next Appendix: Judge Prompt Templates](appendix_c_judge_prompt_templates.md) →

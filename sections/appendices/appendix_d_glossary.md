@@ -1,4 +1,4 @@
-# Appendix F: Glossary of Terms
+# Appendix D: Glossary of Terms
 
 > **Appendices**
 > **Reference Document**
@@ -399,4 +399,4 @@ Performing a task without any task-specific examples, relying only on the model'
 ---
 
 **Navigation:**
-← [Previous Appendix: Code Examples](appendix_e_code_examples.md) | [Table of Contents](../../README.md) | [Next Appendix: Additional Resources and References](appendix_g_additional_resources.md) →
+← [Previous Appendix: Judge Prompt Templates](appendix_c_judge_prompt_templates.md) | [Table of Contents](../../README.md) | [Next Appendix: Additional Resources and References](appendix_e_additional_resources.md) →

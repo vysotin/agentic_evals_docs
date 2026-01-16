@@ -1,4 +1,4 @@
-# Appendix I: Security Benchmark Comparison
+# Appendix G: Security Benchmark Comparison
 
 > **Appendices**
 > **Reference Document**
@@ -11,18 +11,18 @@ This appendix provides detailed comparisons of the major security benchmarks for
 
 ## Table of Contents
 
-- [I.1 Benchmark Overview](#i1-benchmark-overview)
-- [I.2 Detailed Benchmark Analysis](#i2-detailed-benchmark-analysis)
-- [I.3 Attack Categories Covered](#i3-attack-categories-covered)
-- [I.4 Implementation Guide](#i4-implementation-guide)
-- [I.5 Results Interpretation](#i5-results-interpretation)
-- [I.6 Selection Guide](#i6-selection-guide)
+- [G.1 Benchmark Overview](#g1-benchmark-overview)
+- [G.2 Detailed Benchmark Analysis](#g2-detailed-benchmark-analysis)
+- [G.3 Attack Categories Covered](#g3-attack-categories-covered)
+- [G.4 Implementation Guide](#g4-implementation-guide)
+- [G.5 Results Interpretation](#g5-results-interpretation)
+- [G.6 Selection Guide](#g6-selection-guide)
 
 ---
 
-## I.1 Benchmark Overview
+## G.1 Benchmark Overview
 
-### I.1.1 Comparison Summary
+### G.1.1 Comparison Summary
 
 | Benchmark | Developer | Focus | Tasks | Test Cases | Year |
 |-----------|-----------|-------|-------|------------|------|
@@ -31,7 +31,7 @@ This appendix provides detailed comparisons of the major security benchmarks for
 | **AgentHarm** | Various | Malicious use prevention | 110 | 440 | 2025 |
 | **AgentAuditor** | Various | LLM-as-Judge for safety | - | - | 2025 |
 
-### I.1.2 Key Metrics by Benchmark
+### G.1.2 Key Metrics by Benchmark
 
 | Benchmark | Primary Metrics | Secondary Metrics |
 |-----------|-----------------|-------------------|
@@ -40,7 +40,7 @@ This appendix provides detailed comparisons of the major security benchmarks for
 | **AgentHarm** | HarmScore, RefusalRate | Task Completion without Harm |
 | **AgentAuditor** | Judge Accuracy, Human Alignment | Calibration Score |
 
-### I.1.3 Research Origins
+### G.1.3 Research Origins
 
 | Benchmark | Institution | Paper |
 |-----------|-------------|-------|
@@ -51,9 +51,9 @@ This appendix provides detailed comparisons of the major security benchmarks for
 
 ---
 
-## I.2 Detailed Benchmark Analysis
+## G.2 Detailed Benchmark Analysis
 
-### I.2.1 AgentDojo
+### G.2.1 AgentDojo
 
 **Purpose:** Evaluate agent robustness against prompt injection attacks in realistic task environments.
 
@@ -110,7 +110,7 @@ print(f"Robust Success Rate: {results.robust_success_rate:.2%}")
 
 ---
 
-### I.2.2 RAS-Eval
+### G.2.2 RAS-Eval
 
 **Purpose:** Evaluate agent security in real-world scenarios with actual tool execution.
 
@@ -149,7 +149,7 @@ print(f"Robust Success Rate: {results.robust_success_rate:.2%}")
 
 ---
 
-### I.2.3 AgentHarm
+### G.2.3 AgentHarm
 
 **Purpose:** Evaluate agents' ability to prevent malicious use while maintaining legitimate functionality.
 
@@ -205,7 +205,7 @@ print(f"False Refusal Rate: {results.false_refusal_rate:.2%}")
 
 ---
 
-### I.2.4 AgentAuditor
+### G.2.4 AgentAuditor
 
 **Purpose:** Provide human-level accuracy in automated safety evaluation using LLM-as-Judge.
 
@@ -257,9 +257,9 @@ print(f"Explanation: {result.explanation}")
 
 ---
 
-## I.3 Attack Categories Covered
+## G.3 Attack Categories Covered
 
-### I.3.1 Attack Type Matrix
+### G.3.1 Attack Type Matrix
 
 | Attack Type | AgentDojo | RAS-Eval | AgentHarm |
 |-------------|-----------|----------|-----------|
@@ -274,7 +274,7 @@ print(f"Explanation: {result.explanation}")
 | **Code Injection** | Limited | Full | Partial |
 | **Resource Exhaustion** | No | Partial | No |
 
-### I.3.2 Prompt Injection Techniques
+### G.3.2 Prompt Injection Techniques
 
 | Technique | Description | Tested In |
 |-----------|-------------|-----------|
@@ -286,7 +286,7 @@ print(f"Explanation: {result.explanation}")
 | **Multi-step escalation** | Gradual privilege gain | RAS-Eval |
 | **Context manipulation** | Altering conversation context | All |
 
-### I.3.3 Tool-Based Attacks
+### G.3.3 Tool-Based Attacks
 
 | Attack | Description | Benchmark |
 |--------|-------------|-----------|
@@ -298,9 +298,9 @@ print(f"Explanation: {result.explanation}")
 
 ---
 
-## I.4 Implementation Guide
+## G.4 Implementation Guide
 
-### I.4.1 Setting Up Security Testing
+### G.4.1 Setting Up Security Testing
 
 ```python
 # security_testing.py
@@ -431,7 +431,7 @@ if __name__ == "__main__":
     print(f"Harm Refusal Rate: {results['harm_prevention']['refusal_rate']:.2%}")
 ```
 
-### I.4.2 Continuous Security Monitoring
+### G.4.2 Continuous Security Monitoring
 
 ```python
 # security_monitor.py
@@ -544,9 +544,9 @@ class SecurityMonitor:
 
 ---
 
-## I.5 Results Interpretation
+## G.5 Results Interpretation
 
-### I.5.1 Benchmark Score Guidelines
+### G.5.1 Benchmark Score Guidelines
 
 | Benchmark | Good | Acceptable | Poor |
 |-----------|------|------------|------|
@@ -555,7 +555,7 @@ class SecurityMonitor:
 | **AgentHarm** | HarmScore <0.05, Refusal >95% | <0.15, >85% | >0.15 or <85% |
 | **AgentAuditor** | >90% alignment with human | 80-90% | <80% |
 
-### I.5.2 Common Failure Patterns
+### G.5.2 Common Failure Patterns
 
 | Pattern | Benchmark | Mitigation |
 |---------|-----------|------------|
@@ -565,7 +565,7 @@ class SecurityMonitor:
 | Over-refusal (false positives) | AgentHarm | Calibrate safety thresholds |
 | Judge miscalibration | AgentAuditor | Increase calibration samples |
 
-### I.5.3 Improvement Priorities
+### G.5.3 Improvement Priorities
 
 | Score Range | Priority Actions |
 |-------------|------------------|
@@ -576,9 +576,9 @@ class SecurityMonitor:
 
 ---
 
-## I.6 Selection Guide
+## G.6 Selection Guide
 
-### I.6.1 Which Benchmark to Use
+### G.6.1 Which Benchmark to Use
 
 | If You Need... | Use... | Because... |
 |----------------|--------|------------|
@@ -588,7 +588,7 @@ class SecurityMonitor:
 | Automated safety evaluation | AgentAuditor | Scalable LLM-based judgment |
 | Comprehensive security | All four | Each covers different aspects |
 
-### I.6.2 Testing Frequency
+### G.6.2 Testing Frequency
 
 | Benchmark | When to Run |
 |-----------|-------------|
@@ -597,7 +597,7 @@ class SecurityMonitor:
 | AgentHarm | Every release, after safety changes |
 | AgentAuditor | Continuous (integrated into pipeline) |
 
-### I.6.3 Combined Testing Strategy
+### G.6.3 Combined Testing Strategy
 
 **Recommended approach:**
 
@@ -618,4 +618,4 @@ class SecurityMonitor:
 ---
 
 **Navigation:**
-← [Previous Appendix: Cloud Provider Feature Comparison Matrix](appendix_h_cloud_provider_comparison.md) | [Table of Contents](../../README.md) | [Back to Part XI](../29_research_frontiers.md) →
+← [Previous Appendix: Cloud Provider Feature Comparison Matrix](appendix_f_cloud_provider_comparison.md) | [Table of Contents](../../README.md) | [Back to Part XI](../28_research_frontiers.md) →
