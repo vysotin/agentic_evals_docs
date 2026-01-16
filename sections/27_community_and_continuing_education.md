@@ -1,4 +1,4 @@
-# Section 28: Community and Continuing Education
+# Section 27: Community and Continuing Education
 
 > **Part X**: Education & Resources
 > **Estimated Reading Time**: 16 minutes
@@ -9,21 +9,21 @@ AI agent evaluation is a rapidly evolving field where formal courses quickly bec
 
 ## Table of Contents
 
-- [28.1 Podcasts](#281-podcasts)
-- [28.2 Research Papers and Whitepapers](#282-research-papers-and-whitepapers)
-- [28.3 Industry Blogs and Publications](#283-industry-blogs-and-publications)
-- [28.4 Open-Source Communities](#284-open-source-communities)
-- [28.5 Professional Networks and Forums](#285-professional-networks-and-forums)
-- [28.6 Conferences and Events](#286-conferences-and-events)
-- [28.7 Building a Learning System](#287-building-a-learning-system)
+- [27.1 Podcasts](#271-podcasts)
+- [27.2 Research Papers and Whitepapers](#272-research-papers-and-whitepapers)
+- [27.3 Industry Blogs and Publications](#273-industry-blogs-and-publications)
+- [27.4 Open-Source Communities](#274-open-source-communities)
+- [27.5 Professional Networks and Forums](#275-professional-networks-and-forums)
+- [27.6 Conferences and Events](#276-conferences-and-events)
+- [27.7 Building a Learning System](#277-building-a-learning-system)
 
 ---
 
-## 28.1 Podcasts
+## 27.1 Podcasts
 
 Podcasts provide accessible, ongoing education from industry practitioners and researchers. They're ideal for staying current while commuting or exercising.
 
-### 28.1.1 ODSC "Ai X" Podcast
+### 27.1.1 ODSC "Ai X" Podcast
 
 | Attribute | Details |
 |-----------|---------|
@@ -53,7 +53,7 @@ The ODSC Ai X Podcast consistently features practitioners working on AI evaluati
 
 ---
 
-### 28.1.2 TWIML AI Podcast
+### 27.1.2 TWIML AI Podcast
 
 | Attribute | Details |
 |-----------|---------|
@@ -82,7 +82,7 @@ TWIML (This Week in Machine Learning) brings top minds from ML research and indu
 
 ---
 
-### 28.1.3 MLOps Community Podcast
+### 27.1.3 MLOps Community Podcast
 
 | Attribute | Details |
 |-----------|---------|
@@ -108,7 +108,7 @@ The MLOps Community hosts "Agents in Production" virtual events featuring practi
 
 ---
 
-### 28.1.4 TechnologIST Podcast (Institute for Security and Technology)
+### 27.1.4 TechnologIST Podcast (Institute for Security and Technology)
 
 | Attribute | Details |
 |-----------|---------|
@@ -133,7 +133,7 @@ Covers AI safety and security topics often missed by technical podcasts. Feature
 
 ---
 
-### 28.1.5 Podcast Listening Strategy
+### 27.1.5 Podcast Listening Strategy
 
 | Goal | Recommended Podcasts | Time/Week |
 |------|---------------------|-----------|
@@ -144,11 +144,11 @@ Covers AI safety and security topics often missed by technical podcasts. Feature
 
 ---
 
-## 28.2 Research Papers and Whitepapers
+## 27.2 Research Papers and Whitepapers
 
 Academic research provides the theoretical foundations and cutting-edge techniques that eventually become industry practice.
 
-### 28.2.1 Essential Reading List
+### 27.2.1 Essential Reading List
 
 **Foundational Papers:**
 
@@ -181,7 +181,7 @@ Academic research provides the theoretical foundations and cutting-edge techniqu
 | *GPT-4 Is a Good Judge, But a Biased One* | Jung et al. | 2024 | Systematic bias analysis in LLM judges |
 | *Can LLMs Be an Alternative to Human Evaluations?* | Chen et al. | 2023 | Comparison of LLM and human evaluation |
 
-### 28.2.2 Where to Find Papers
+### 27.2.2 Where to Find Papers
 
 | Source | URL | Best For |
 |--------|-----|----------|
@@ -191,7 +191,7 @@ Academic research provides the theoretical foundations and cutting-edge techniqu
 | **Google Scholar** | [scholar.google.com](https://scholar.google.com) | Comprehensive search |
 | **Hugging Face Papers** | [huggingface.co/papers](https://huggingface.co/papers) | ML-focused curation |
 
-### 28.2.3 Industry Reports
+### 27.2.3 Industry Reports
 
 | Report | Publisher | Focus |
 |--------|-----------|-------|
@@ -203,11 +203,11 @@ Academic research provides the theoretical foundations and cutting-edge techniqu
 
 ---
 
-## 28.3 Industry Blogs and Publications
+## 27.3 Industry Blogs and Publications
 
 Vendor blogs and industry publications provide practical insights from teams building and deploying evaluation systems.
 
-### 28.3.1 Platform and Vendor Blogs
+### 27.3.1 Platform and Vendor Blogs
 
 | Blog | Organization | Key Topics | Update Frequency |
 |------|--------------|------------|------------------|
@@ -225,7 +225,7 @@ Vendor blogs and industry publications provide practical insights from teams bui
 2. **Langfuse Blog**: Open-source evaluation implementation guides
 3. **LangChain Blog**: State of AI Agents reports, LangSmith updates
 
-### 28.3.2 Independent Practitioner Blogs
+### 27.3.2 Independent Practitioner Blogs
 
 | Blog/Publication | Author | Focus |
 |------------------|--------|-------|
@@ -244,7 +244,7 @@ Vendor blogs and industry publications provide practical insights from teams bui
   - Part 6: Variance and Non-Determinism
   - Part 7: Complete Framework Integration
 
-### 28.3.3 News and Analysis Sites
+### 27.3.3 News and Analysis Sites
 
 | Publication | Focus | Best For |
 |-------------|-------|----------|
@@ -255,11 +255,11 @@ Vendor blogs and industry publications provide practical insights from teams bui
 
 ---
 
-## 28.4 Open-Source Communities
+## 27.4 Open-Source Communities
 
 Open-source projects are where practitioners share code, discuss problems, and collaborate on solutions.
 
-### 28.4.1 GitHub Repositories
+### 27.4.1 GitHub Repositories
 
 **Evaluation Frameworks:**
 
@@ -286,7 +286,7 @@ Open-source projects are where practitioners share code, discuss problems, and c
 | [THUDM/AgentBench](https://github.com/THUDM/AgentBench) | Multi-environment agent benchmark |
 | [ethz-spylab/agentdojo](https://github.com/ethz-spylab/agentdojo) | Security benchmark |
 
-### 28.4.2 Contributing to Open Source
+### 27.4.2 Contributing to Open Source
 
 **Ways to Contribute:**
 
@@ -304,11 +304,11 @@ Open-source projects are where practitioners share code, discuss problems, and c
 
 ---
 
-## 28.5 Professional Networks and Forums
+## 27.5 Professional Networks and Forums
 
 Online communities provide spaces for asking questions, sharing experiences, and networking with peers.
 
-### 28.5.1 Slack and Discord Communities
+### 27.5.1 Slack and Discord Communities
 
 | Community | Platform | Size | Focus |
 |-----------|----------|------|-------|
@@ -330,7 +330,7 @@ Online communities provide spaces for asking questions, sharing experiences, and
 4. Share your solutions to help others
 5. Attend virtual events and AMAs
 
-### 28.5.2 Forums and Q&A Sites
+### 27.5.2 Forums and Q&A Sites
 
 | Forum | URL | Best For |
 |-------|-----|----------|
@@ -340,7 +340,7 @@ Online communities provide spaces for asking questions, sharing experiences, and
 | **Reddit r/LocalLLaMA** | [reddit.com/r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) | Open-source LLM deployment |
 | **Hacker News** | [news.ycombinator.com](https://news.ycombinator.com) | Tech news, AI discussions |
 
-### 28.5.3 LinkedIn Groups and Networks
+### 27.5.3 LinkedIn Groups and Networks
 
 | Group/Hashtag | Focus |
 |---------------|-------|
@@ -357,11 +357,11 @@ Online communities provide spaces for asking questions, sharing experiences, and
 
 ---
 
-## 28.6 Conferences and Events
+## 27.6 Conferences and Events
 
 Conferences provide concentrated learning, networking, and exposure to cutting-edge developments.
 
-### 28.6.1 Industry Conferences
+### 27.6.1 Industry Conferences
 
 | Conference | Focus | When | Format |
 |------------|-------|------|--------|
@@ -380,7 +380,7 @@ Conferences provide concentrated learning, networking, and exposure to cutting-e
 - LangSmith and evaluation deep-dives
 - Community showcase
 
-### 28.6.2 Academic Conferences
+### 27.6.2 Academic Conferences
 
 | Conference | Focus | Evaluation Relevance |
 |------------|-------|----------------------|
@@ -396,7 +396,7 @@ Conferences provide concentrated learning, networking, and exposure to cutting-e
 - Participate in workshops
 - Read associated tutorials
 
-### 28.6.3 Summits and Specialized Events
+### 27.6.3 Summits and Specialized Events
 
 | Event | Host | Focus |
 |-------|------|-------|
@@ -413,11 +413,11 @@ Conferences provide concentrated learning, networking, and exposure to cutting-e
 
 ---
 
-## 28.7 Building a Learning System
+## 27.7 Building a Learning System
 
 Sustainable learning requires a systematic approach that integrates into your regular workflow.
 
-### 28.7.1 Weekly Learning Routine
+### 27.7.1 Weekly Learning Routine
 
 | Day | Activity | Time | Purpose |
 |-----|----------|------|---------|
@@ -427,7 +427,7 @@ Sustainable learning requires a systematic approach that integrates into your re
 | Thursday | Forum participation | 20 min | Community engagement |
 | Friday | Paper reading | 45 min | Research awareness |
 
-### 28.7.2 Monthly Activities
+### 27.7.2 Monthly Activities
 
 | Week | Activity |
 |------|----------|
@@ -436,14 +436,14 @@ Sustainable learning requires a systematic approach that integrates into your re
 | Week 3 | Write a blog post or internal doc sharing learnings |
 | Week 4 | Network with one new person in the field |
 
-### 28.7.3 Quarterly Goals
+### 27.7.3 Quarterly Goals
 
 1. **Complete one course** (from Section 27)
 2. **Contribute to open source** (issue, PR, or documentation)
 3. **Attend one event** (conference, meetup, or webinar)
 4. **Share knowledge** (internal presentation, blog post, or forum answer)
 
-### 28.7.4 Information Management
+### 27.7.4 Information Management
 
 **Tools for Learning:**
 
@@ -461,7 +461,7 @@ Sustainable learning requires a systematic approach that integrates into your re
 - Summarize key learnings in your own words
 - Connect new knowledge to existing understanding
 
-### 28.7.5 Staying Current Without Burnout
+### 27.7.5 Staying Current Without Burnout
 
 **Principles:**
 
@@ -541,4 +541,4 @@ Sustainable learning requires a systematic approach that integrates into your re
 ---
 
 **Navigation:**
-← [Previous Section: Online Courses and Certifications](27_online_courses_and_certifications.md) | [Table of Contents](../README.md) | [Next Part: Future Directions](../README.md#part-xi-future-directions) →
+← [Previous Section: Online Courses and Certifications](26_online_courses_and_certifications.md) | [Table of Contents](../README.md) | [Next Section: Research Frontiers](28_research_frontiers.md) →

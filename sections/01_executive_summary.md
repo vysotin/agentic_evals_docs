@@ -247,11 +247,11 @@ This guide provides a comprehensive, evidence-based framework for evaluating, mo
 
 ### Part X: Education & Resources
 
-**Sections 26-28**: Role-based learning pathways, online courses, podcasts, communities, and continuing education
+**Sections 26-27**: Online courses, certifications, podcasts, communities, and continuing education
 
 ### Part XI: Future Directions
 
-**Sections 29-31**: Research frontiers, industry predictions, and final recommendations
+**Sections 28-30**: Research frontiers, industry predictions, and final recommendations
 
 ### Appendices
 

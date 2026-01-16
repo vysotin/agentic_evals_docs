@@ -1,4 +1,4 @@
-# Appendix D: Judge Prompt Templates
+# Appendix C: Judge Prompt Templates
 
 > **Appendices**
 > **Reference Document**
@@ -11,19 +11,19 @@ This appendix provides ready-to-use prompt templates for LLM-as-Judge evaluation
 
 ## Table of Contents
 
-- [D.1 General Judge Prompt Structure](#d1-general-judge-prompt-structure)
-- [D.2 Task Completion Prompts](#d2-task-completion-prompts)
-- [D.3 Quality Assessment Prompts](#d3-quality-assessment-prompts)
-- [D.4 Safety and Compliance Prompts](#d4-safety-and-compliance-prompts)
-- [D.5 Agent-Specific Prompts](#d5-agent-specific-prompts)
-- [D.6 Pairwise Comparison Prompts](#d6-pairwise-comparison-prompts)
-- [D.7 Calibration and Bias Mitigation](#d7-calibration-and-bias-mitigation)
+- [C.1 General Judge Prompt Structure](#c1-general-judge-prompt-structure)
+- [C.2 Task Completion Prompts](#c2-task-completion-prompts)
+- [C.3 Quality Assessment Prompts](#c3-quality-assessment-prompts)
+- [C.4 Safety and Compliance Prompts](#c4-safety-and-compliance-prompts)
+- [C.5 Agent-Specific Prompts](#c5-agent-specific-prompts)
+- [C.6 Pairwise Comparison Prompts](#c6-pairwise-comparison-prompts)
+- [C.7 Calibration and Bias Mitigation](#c7-calibration-and-bias-mitigation)
 
 ---
 
-## D.1 General Judge Prompt Structure
+## C.1 General Judge Prompt Structure
 
-### D.1.1 Template Framework
+### C.1.1 Template Framework
 
 ```
 [SYSTEM]
@@ -47,7 +47,7 @@ Provide your evaluation in the following format:
 - Specific Issues (if any): [list_of_issues]
 ```
 
-### D.1.2 Best Practices
+### C.1.2 Best Practices
 
 | Practice | Description |
 |----------|-------------|
@@ -59,9 +59,9 @@ Provide your evaluation in the following format:
 
 ---
 
-## D.2 Task Completion Prompts
+## C.2 Task Completion Prompts
 
-### D.2.1 Binary Task Completion
+### C.2.1 Binary Task Completion
 
 ```
 You are evaluating whether an AI agent successfully completed the user's requested task.
@@ -90,7 +90,7 @@ OUTPUT:
 - Missing Elements (if incomplete): [List what was not done]
 ```
 
-### D.2.2 Partial Completion Scoring
+### C.2.2 Partial Completion Scoring
 
 ```
 You are evaluating the degree to which an AI agent completed the user's task.
@@ -124,7 +124,7 @@ OUTPUT:
 - Overall Reasoning: [Explain score]
 ```
 
-### D.2.3 Intent Fulfillment
+### C.2.3 Intent Fulfillment
 
 ```
 You are evaluating whether an AI agent truly satisfied the user's underlying intent, beyond just completing literal steps.
@@ -159,9 +159,9 @@ OUTPUT:
 
 ---
 
-## D.3 Quality Assessment Prompts
+## C.3 Quality Assessment Prompts
 
-### D.3.1 Response Quality (Multi-Criteria)
+### C.3.1 Response Quality (Multi-Criteria)
 
 ```
 You are evaluating the quality of an AI agent's response across multiple dimensions.
@@ -208,7 +208,7 @@ OUTPUT FORMAT:
 - Key Weaknesses: [List]
 ```
 
-### D.3.2 Faithfulness/Groundedness
+### C.3.2 Faithfulness/Groundedness
 
 ```
 You are evaluating whether the agent's response is grounded in the provided context.
@@ -246,7 +246,7 @@ OUTPUT:
 - Overall Assessment: [Summary]
 ```
 
-### D.3.3 Coherence
+### C.3.3 Coherence
 
 ```
 You are evaluating the coherence and logical flow of an AI response.
@@ -279,9 +279,9 @@ OUTPUT:
 
 ---
 
-## D.4 Safety and Compliance Prompts
+## C.4 Safety and Compliance Prompts
 
-### D.4.1 Safety Violation Detection
+### C.4.1 Safety Violation Detection
 
 ```
 You are a safety evaluator checking AI agent responses for policy violations.
@@ -332,7 +332,7 @@ OUTPUT:
 - Recommended Action: [None/Flag for Review/Block]
 ```
 
-### D.4.2 Policy Compliance
+### C.4.2 Policy Compliance
 
 ```
 You are evaluating whether an AI agent's response complies with organizational policies.
@@ -363,7 +363,7 @@ OUTPUT:
 - Recommendations: [How to fix non-compliance]
 ```
 
-### D.4.3 Tone and Professionalism
+### C.4.3 Tone and Professionalism
 
 ```
 You are evaluating the tone and professionalism of an AI agent response.
@@ -408,9 +408,9 @@ OUTPUT:
 
 ---
 
-## D.5 Agent-Specific Prompts
+## C.5 Agent-Specific Prompts
 
-### D.5.1 Plan Quality Assessment
+### C.5.1 Plan Quality Assessment
 
 ```
 You are evaluating the quality of an AI agent's plan for completing a task.
@@ -459,7 +459,7 @@ OUTPUT:
 - Suggested Improvements: [List]
 ```
 
-### D.5.2 Tool Selection Evaluation
+### C.5.2 Tool Selection Evaluation
 
 ```
 You are evaluating whether an AI agent selected the correct tools for the task.
@@ -503,7 +503,7 @@ OUTPUT:
 - Reasoning: [Detailed explanation]
 ```
 
-### D.5.3 Reasoning Quality
+### C.5.3 Reasoning Quality
 
 ```
 You are evaluating the quality of an AI agent's reasoning process.
@@ -558,9 +558,9 @@ OUTPUT:
 
 ---
 
-## D.6 Pairwise Comparison Prompts
+## C.6 Pairwise Comparison Prompts
 
-### D.6.1 Side-by-Side Comparison
+### C.6.1 Side-by-Side Comparison
 
 ```
 You are comparing two AI agent responses to determine which is better.
@@ -601,7 +601,7 @@ CONFIDENCE: [HIGH/MEDIUM/LOW]
 OVERALL REASONING: [Summary of why the winner is better]
 ```
 
-### D.6.2 Preference Ranking (Multiple Responses)
+### C.6.2 Preference Ranking (Multiple Responses)
 
 ```
 You are ranking multiple AI agent responses from best to worst.
@@ -644,9 +644,9 @@ Notes: [Any ties or very close comparisons]
 
 ---
 
-## D.7 Calibration and Bias Mitigation
+## C.7 Calibration and Bias Mitigation
 
-### D.7.1 Calibration Examples
+### C.7.1 Calibration Examples
 
 Include few-shot examples to calibrate the judge:
 
@@ -672,7 +672,7 @@ Now evaluate the following:
 [actual_evaluation_task]
 ```
 
-### D.7.2 Bias Mitigation Techniques
+### C.7.2 Bias Mitigation Techniques
 
 **Position Bias Mitigation:**
 ```
@@ -695,7 +695,7 @@ Do not favor responses that match your own style.
 Evaluate objectively based on the criteria provided.
 ```
 
-### D.7.3 Consistency Verification Prompt
+### C.7.3 Consistency Verification Prompt
 
 ```
 You previously evaluated this response and gave it a score of {previous_score}.
@@ -723,13 +723,13 @@ OUTPUT:
 
 | Evaluation Need | Recommended Template |
 |-----------------|---------------------|
-| Did agent complete the task? | D.2.1 Binary Task Completion |
-| How well did agent perform? | D.3.1 Response Quality |
-| Is response factually grounded? | D.3.2 Faithfulness |
-| Is response safe? | D.4.1 Safety Violation Detection |
-| Was the plan good? | D.5.1 Plan Quality |
-| Were tools used correctly? | D.5.2 Tool Selection |
-| Which response is better? | D.6.1 Side-by-Side Comparison |
+| Did agent complete the task? | C.2.1 Binary Task Completion |
+| How well did agent perform? | C.3.1 Response Quality |
+| Is response factually grounded? | C.3.2 Faithfulness |
+| Is response safe? | C.4.1 Safety Violation Detection |
+| Was the plan good? | C.5.1 Plan Quality |
+| Were tools used correctly? | C.5.2 Tool Selection |
+| Which response is better? | C.6.1 Side-by-Side Comparison |
 
 ### Best Practices
 
@@ -750,4 +750,4 @@ OUTPUT:
 ---
 
 **Navigation:**
-← [Previous Appendix: Example Test Cases](appendix_c_example_test_cases.md) | [Table of Contents](../../README.md) | [Next Appendix: Code Examples](appendix_e_code_examples.md) →
+← [Previous Appendix: Tool and Platform Comparison Tables](appendix_b_tool_platform_comparison_tables.md) | [Table of Contents](../../README.md) | [Next Appendix: Glossary of Terms](appendix_d_glossary.md) →

@@ -1,4 +1,4 @@
-# Appendix G: Additional Resources and References
+# Appendix E: Additional Resources and References
 
 > **Appendices**
 > **Reference Document**
@@ -11,19 +11,19 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 
 ## Table of Contents
 
-- [G.1 Academic Papers](#g1-academic-papers)
-- [G.2 Industry Reports](#g2-industry-reports)
-- [G.3 Official Documentation](#g3-official-documentation)
-- [G.4 GitHub Repositories](#g4-github-repositories)
-- [G.5 Online Courses and Tutorials](#g5-online-courses-and-tutorials)
-- [G.6 Community Resources](#g6-community-resources)
-- [G.7 Blogs and Publications](#g7-blogs-and-publications)
+- [E.1 Academic Papers](#e1-academic-papers)
+- [E.2 Industry Reports](#e2-industry-reports)
+- [E.3 Official Documentation](#e3-official-documentation)
+- [E.4 GitHub Repositories](#e4-github-repositories)
+- [E.5 Online Courses and Tutorials](#e5-online-courses-and-tutorials)
+- [E.6 Community Resources](#e6-community-resources)
+- [E.7 Blogs and Publications](#e7-blogs-and-publications)
 
 ---
 
-## G.1 Academic Papers
+## E.1 Academic Papers
 
-### G.1.1 Foundational Papers
+### E.1.1 Foundational Papers
 
 | Paper | Authors | Year | Link |
 |-------|---------|------|------|
@@ -32,7 +32,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | *RAGAS: Automated Evaluation of Retrieval Augmented Generation* | Es et al. | 2023 | [arXiv](https://arxiv.org/abs/2309.15217) |
 | *ReAct: Synergizing Reasoning and Acting in Language Models* | Yao et al. | 2022 | [arXiv](https://arxiv.org/abs/2210.03629) |
 
-### G.1.2 Evaluation Frameworks (2024-2025)
+### E.1.2 Evaluation Frameworks (2024-2025)
 
 | Paper | Authors | Year | Focus |
 |-------|---------|------|-------|
@@ -41,7 +41,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | *AgentAuditor: LLM-as-Judge for Agent Safety* | Various | 2025 | Safety evaluation |
 | *Evaluation and Benchmarking of LLM Agents: A Survey* | KDD 2025 | 2025 | Comprehensive taxonomy |
 
-### G.1.3 Security Research
+### E.1.3 Security Research
 
 | Paper | Authors | Year | Focus |
 |-------|---------|------|-------|
@@ -50,7 +50,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | *AgentHarm: Evaluating Harmful Use Prevention* | Various | 2025 | Malicious use prevention |
 | *Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications* | Greshake et al. | 2023 | Indirect injection |
 
-### G.1.4 LLM-as-Judge Research
+### E.1.4 LLM-as-Judge Research
 
 | Paper | Authors | Year | Focus |
 |-------|---------|------|-------|
@@ -60,9 +60,9 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 
 ---
 
-## G.2 Industry Reports
+## E.2 Industry Reports
 
-### G.2.1 State of the Industry
+### E.2.1 State of the Industry
 
 | Report | Publisher | Year | Link |
 |--------|-----------|------|------|
@@ -72,7 +72,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | *Agentic AI Strategy* | Deloitte Tech Trends | 2026 | [deloitte.com](https://www.deloitte.com/insights) |
 | *7 Agentic AI Trends to Watch* | Machine Learning Mastery | 2026 | [machinelearningmastery.com](https://machinelearningmastery.com/7-agentic-ai-trends-to-watch-in-2026/) |
 
-### G.2.2 Analyst Predictions
+### E.2.2 Analyst Predictions
 
 | Report | Publisher | Year | Key Prediction |
 |--------|-----------|------|----------------|
@@ -83,9 +83,9 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 
 ---
 
-## G.3 Official Documentation
+## E.3 Official Documentation
 
-### G.3.1 Evaluation Frameworks
+### E.3.1 Evaluation Frameworks
 
 | Tool | Documentation | Key Resources |
 |------|---------------|---------------|
@@ -95,7 +95,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | **TruLens** | [trulens.org/docs](https://www.trulens.org/docs) | RAG Triad |
 | **Evidently** | [docs.evidentlyai.com](https://docs.evidentlyai.com) | ML monitoring |
 
-### G.3.2 Observability Platforms
+### E.3.2 Observability Platforms
 
 | Platform | Documentation | Key Resources |
 |----------|---------------|---------------|
@@ -104,7 +104,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | **OpenLLMetry** | [github.com/traceloop/openllmetry](https://github.com/traceloop/openllmetry) | OTel instrumentation |
 | **OpenTelemetry GenAI** | [opentelemetry.io/docs/specs/semconv/gen-ai](https://opentelemetry.io/docs/specs/semconv/gen-ai/) | Semantic conventions |
 
-### G.3.3 Cloud Providers
+### E.3.3 Cloud Providers
 
 | Provider | Documentation | Key Resources |
 |----------|---------------|---------------|
@@ -112,7 +112,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | **Google Vertex AI** | [cloud.google.com/vertex-ai/docs](https://cloud.google.com/vertex-ai/docs) | Rapid Eval |
 | **AWS Bedrock** | [docs.aws.amazon.com/bedrock](https://docs.aws.amazon.com/bedrock) | Model evaluation |
 
-### G.3.4 Regulatory Frameworks
+### E.3.4 Regulatory Frameworks
 
 | Framework | Documentation | Key Resources |
 |-----------|---------------|---------------|
@@ -122,9 +122,9 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 
 ---
 
-## G.4 GitHub Repositories
+## E.4 GitHub Repositories
 
-### G.4.1 Evaluation Frameworks
+### E.4.1 Evaluation Frameworks
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
@@ -134,7 +134,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | [truera/trulens](https://github.com/truera/trulens) | 3K+ | Feedback functions |
 | [evidentlyai/evidently](https://github.com/evidentlyai/evidently) | 7K+ | ML monitoring |
 
-### G.4.2 Observability
+### E.4.2 Observability
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
@@ -143,7 +143,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | [traceloop/openllmetry](https://github.com/traceloop/openllmetry) | 6K+ | OTel for LLMs |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 23K+ | ML lifecycle |
 
-### G.4.3 Agent Frameworks
+### E.4.3 Agent Frameworks
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
@@ -152,7 +152,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | [microsoft/autogen](https://github.com/microsoft/autogen) | 30K+ | Multi-agent |
 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | 30K+ | Data framework |
 
-### G.4.4 Benchmarks
+### E.4.4 Benchmarks
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
@@ -162,9 +162,9 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 
 ---
 
-## G.5 Online Courses and Tutorials
+## E.5 Online Courses and Tutorials
 
-### G.5.1 University Courses
+### E.5.1 University Courses
 
 | Course | Institution | Platform | Focus |
 |--------|-------------|----------|-------|
@@ -172,7 +172,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | *Full Stack LLM Bootcamp* | FSDL | Self-hosted | LLM applications |
 | *Deep Learning Specialization* | Deeplearning.AI | Coursera | ML fundamentals |
 
-### G.5.2 Vendor Training
+### E.5.2 Vendor Training
 
 | Course | Provider | Focus |
 |--------|----------|-------|
@@ -180,7 +180,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | Google Cloud AI | Google Cloud Skills | Vertex AI |
 | AWS AI/ML Training | AWS Training | Bedrock, SageMaker |
 
-### G.5.3 Tutorials and Guides
+### E.5.3 Tutorials and Guides
 
 | Resource | Provider | Topic |
 |----------|----------|-------|
@@ -191,9 +191,9 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 
 ---
 
-## G.6 Community Resources
+## E.6 Community Resources
 
-### G.6.1 Slack/Discord Communities
+### E.6.1 Slack/Discord Communities
 
 | Community | Platform | Focus | Size |
 |-----------|----------|-------|------|
@@ -202,7 +202,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | Hugging Face | Discord | ML/AI | 100K+ |
 | Weights & Biases | Discord | Experiment tracking | 15K+ |
 
-### G.6.2 Forums and Q&A
+### E.6.2 Forums and Q&A
 
 | Forum | URL | Best For |
 |-------|-----|----------|
@@ -211,7 +211,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | Reddit r/MachineLearning | reddit.com | Research discussion |
 | Reddit r/LocalLLaMA | reddit.com | Open-source LLMs |
 
-### G.6.3 Conferences
+### E.6.3 Conferences
 
 | Conference | Focus | When |
 |------------|-------|------|
@@ -223,9 +223,9 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 
 ---
 
-## G.7 Blogs and Publications
+## E.7 Blogs and Publications
 
-### G.7.1 Vendor Blogs
+### E.7.1 Vendor Blogs
 
 | Blog | Organization | Key Topics |
 |------|--------------|------------|
@@ -236,7 +236,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | [Anthropic Research](https://anthropic.com/research) | Anthropic | Safety research |
 | [OpenAI Research](https://openai.com/research) | OpenAI | Model capabilities |
 
-### G.7.2 Independent Publications
+### E.7.2 Independent Publications
 
 | Publication | Focus |
 |-------------|-------|
@@ -246,7 +246,7 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 | Simon Willison's Weblog | LLM developments |
 | Machine Learning Mastery | Tutorials |
 
-### G.7.3 Newsletters
+### E.7.3 Newsletters
 
 | Newsletter | Author/Org | Frequency |
 |------------|------------|-----------|
@@ -280,4 +280,4 @@ This appendix consolidates additional resources for AI agent evaluation, includi
 ---
 
 **Navigation:**
-← [Previous Appendix: Glossary of Terms](appendix_f_glossary.md) | [Table of Contents](../../README.md) | [Next Appendix: Cloud Provider Feature Comparison Matrix](appendix_h_cloud_provider_comparison.md) →
+← [Previous Appendix: Glossary of Terms](appendix_d_glossary.md) | [Table of Contents](../../README.md) | [Next Appendix: Cloud Provider Feature Comparison Matrix](appendix_f_cloud_provider_comparison.md) →

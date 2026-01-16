@@ -10,6 +10,8 @@ This guide provides a comprehensive, evidence-based framework for evaluating, mo
 
 The evaluation crisis is real: 57% of organizations have AI agents in production, but fewer than 25% successfully scale them—primarily due to inadequate evaluation methods. This guide provides the frameworks, metrics, tools, and best practices needed to bridge the gap between agents that work in demos and agents that deliver value reliably at scale.
 
+---
+
 ## Table of Contents
 
 ### Part I: Foundations & Context
@@ -25,151 +27,149 @@ Explores what makes AI agents fundamentally different from traditional AI—auto
 ### Part II: The Challenge Landscape
 
 #### [03. Critical Evaluation Gaps and Challenges](sections/03_critical_evaluation_gaps_and_challenges.md)
-Deep dive into the five critical evaluation gaps that cause production failures: distribution mismatch (91% eval → 68% production), coordination failures in multi-agent systems (92% × 88% × 85% ≠ system success), quality assessment at scale (99%+ interactions unevaluated), root cause diagnosis (hours of manual debugging), and non-deterministic variance. Also covers technical challenges (model drift, silent failures), organizational challenges (accountability gaps, data accessibility), and security vulnerabilities (prompt injection attack success rates of 44-85%).
+Deep dive into the five critical evaluation gaps that cause production failures: distribution mismatch (91% eval → 68% production), coordination failures in multi-agent systems, quality assessment at scale (99%+ interactions unevaluated), root cause diagnosis challenges, and non-deterministic variance. Also covers technical challenges (model drift, silent failures), organizational challenges (accountability gaps, data accessibility), and security vulnerabilities (prompt injection attack success rates of 44-85%).
 
 ---
 
 ### Part III: Evaluation Frameworks & Methodologies
-*(Coming Soon)*
 
-#### 04. Evaluation Types, Approaches and Monitoring
-Covers offline evaluation, online evaluation (A/B testing, canary deployments, shadow mode), in-the-loop evaluation, hybrid approaches, and advanced frameworks including the Three-Layer Framework, Four-Pillar Assessment, and CLASSic Framework.
+#### [04. Evaluation Types, Approaches and Monitoring](sections/04_evaluation_frameworks_and_methodologies.md)
+Presents the three core evaluation paradigms: offline evaluation (static testing, benchmarks, pre-deployment validation), online evaluation (A/B testing, canary deployments, shadow mode, continuous scoring), and in-the-loop evaluation (HITL assessment, expert review). Introduces advanced frameworks including Maxim AI's Three-Layer Framework, the Four-Pillar Assessment Framework, and Aisera's CLASSic Framework for systematic agent assessment.
 
 ---
 
 ### Part IV: Metrics & Measurements
-*(Coming Soon)*
 
-#### 05. Core Evaluation Metrics
-Task completion metrics, process quality metrics, tool and action metrics, outcome quality metrics, and performance/efficiency metrics.
+#### [05. Core Evaluation Metrics](sections/05_core_evaluation_metrics.md)
+Comprehensive catalog of foundational metrics spanning five critical categories: task completion and success (task success rate, containment rate, FCR), process quality (plan quality, plan adherence, instruction adherence), tool and action correctness (tool selection accuracy, tool call frequency), outcome quality (factual correctness, groundedness, response quality), and performance efficiency (latency percentiles, token usage, cost per interaction).
 
-#### 06. Safety and Security Metrics
-Content safety, security metrics, safety benchmarks (AgentAuditor, RAS-Eval, AgentDojo, AgentHarm), and attack surface metrics.
+#### [06. Safety and Security Metrics](sections/06_safety_and_security_metrics.md)
+Framework for evaluating agent safety and security across four dimensions: content safety (PII detection, toxicity, harmful content), security vulnerabilities (prompt injection resistance, jailbreak detection, adversarial robustness), established safety benchmarks (AgentAuditor, RAS-Eval, AgentDojo, AgentHarm), and attack surface metrics. Includes industry benchmarks showing 85%+ attack success rates in academic settings.
 
-#### 07. Advanced and Specialized Metrics
-Galileo AI's four new agent metrics, reasoning and planning metrics, interaction quality metrics, robustness metrics, business metrics, drift metrics, and domain-specific metrics.
+#### [07. Advanced and Specialized Metrics](sections/07_advanced_and_specialized_metrics.md)
+Explores seven categories of advanced metrics: Galileo AI's 2025-2026 metrics (Agent Flow, Agent Efficiency, Conversation Quality, Intent Change), reasoning and planning assessment, interaction quality measures, robustness evaluations, business impact metrics (ROI, conversion rates), drift and distribution monitoring (KL divergence, PSI), and domain-specific metrics for RAG, code generation, customer support, and healthcare agents.
 
-#### 08. Defining Custom Metrics
-When and why to create custom metrics, composite metrics design, domain-specific metric development, and weighted scoring frameworks.
+#### [08. Defining Custom Metrics](sections/08_defining_custom_metrics.md)
+Comprehensive guide to creating custom metrics: when standard metrics fall short, composite metrics design, domain-specific metric development strategies, implementation approaches (code-based evaluators and natural language definitions), and weighted scoring frameworks like the CLASSic approach. Includes decision frameworks for determining when custom metrics are necessary.
 
 ---
 
 ### Part V: Observability & Tracing
-*(Coming Soon)*
 
-#### 09. Full Trace Observability
-Architecture of agent traces, OpenTelemetry and OpenLLMetry standards, and trace collection/instrumentation.
+#### [09. Full Trace Observability](sections/09_full_trace_observability.md)
+The foundational shift from traditional system monitoring to behavioral telemetry for AI agents. Covers the architecture of agent traces (root spans, child spans, tool call spans, memory spans), OpenTelemetry and OpenLLMetry standards (OTLP protocol, semantic conventions, span types), and practical instrumentation patterns (auto-instrumentation, manual instrumentation, framework integration).
 
-#### 10. Production Monitoring and Observability
-Real-time monitoring dashboards, anomaly detection, the forensic loop, and continuous evaluation in production.
+#### [10. Production Monitoring and Observability](sections/10_production_monitoring_and_observability.md)
+Operational discipline of production observability: real-time dashboards that surface issues before users report them, anomaly detection for catching subtle degradation, the forensic loop (production failure → trace capture → root cause analysis → test generation), and continuous evaluation loops. Covers the three dashboard layers: system health, behavior quality, and business impact.
 
 ---
 
 ### Part VI: Testing & Evaluation Processes
-*(Coming Soon)*
 
-#### 11. Test Case Generation
-Test case generation techniques, test case structure, test coverage, and test suite management.
+#### [11. Test Case Generation](sections/11_test_case_generation.md)
+Techniques for scalable test generation: data-driven generation (production logs, support tickets, user feedback), model-based generation, LLM-powered synthetic data for cold start, and simulation-based approaches. Covers test case structure (single-turn vs multi-turn, trajectory evaluation), test coverage categories (happy path, edge cases, adversarial scenarios, failure replay), and test suite management (golden datasets, versioning, distribution health).
 
-#### 12. LLM-as-a-Judge Evaluation
-The LLM-as-Judge paradigm, calibration and bias mitigation, prompt engineering for judges, and processing traces with LLM judges.
+#### [12. LLM-as-a-Judge Evaluation](sections/12_llm_as_a_judge_evaluation.md)
+Comprehensive guide to using LLMs as evaluators: when to use LLM judges (subjective dimensions, scalability needs), calibration and bias mitigation (the calibration loop, systematic bias detection, human alignment validation), prompt engineering for judges (structured outputs, clear criteria), and processing agent traces through automated evaluation. Covers 53.3% adoption rate in 2026.
 
-#### 13. Evaluation-Driven Development
-The EDD paradigm shift, CI/CD integration, metrics as code, and iterative improvement workflows.
+#### [13. Evaluation-Driven Development](sections/13_evaluation_driven_development.md)
+The EDD paradigm shift: embedding continuous evaluation across the entire agent lifecycle. Covers CI/CD integration (pre-deployment testing, regression detection, Azure DevOps and GitHub Actions), metrics-as-code practices (version control for evaluations, centralized metric libraries), IDE-integrated evaluation tools, and iterative improvement workflows. Addresses the 93.28% pre-deployment bias in academic evaluations.
 
 ---
 
 ### Part VII: Tools & Platforms
-*(Coming Soon)*
 
-#### 14. Observability and Tracing Platforms
-Open-source solutions (Langfuse, Phoenix, Langtrace, TruLens, MLflow) and commercial platforms (LangSmith, Braintrust, Maxim AI).
+#### [14. Observability and Tracing Platforms](sections/14_observability_and_tracing_platforms.md)
+Comprehensive analysis of observability platforms: open-source solutions (Langfuse 20.3k stars, Arize Phoenix 8.2k stars, Langtrace, TruLens, Evidently AI, MLflow, Helicone) and commercial platforms (LangSmith, Braintrust, Maxim AI, Openlayer, WhyLabs). Includes platform comparison matrix covering OpenTelemetry compatibility, storage backends, and deployment options.
 
-#### 15. Evaluation Frameworks and Libraries
-General-purpose frameworks (OpenAI Evals, DeepEval, RAGAS, PromptFoo) and instrumentation libraries.
+#### [15. Evaluation Frameworks and Libraries](sections/15_evaluation_frameworks_and_libraries.md)
+Survey of evaluation tools: general-purpose frameworks (OpenAI Evals, DeepEval, RAGAS, PromptFoo), instrumentation libraries (OpenLLMetry 6.7k stars, OpenLIT, OpenInference, MLflow Tracing SDK), and general-purpose OpenTelemetry backends (Jaeger, SigNoz, Grafana Tempo, Uptrace). Covers the 2025-2026 developments including OpenAI's Evals API and graders.
 
-#### 16. Cloud Provider Evaluation Platforms
-Google Vertex AI Agent Builder, AWS Amazon Bedrock, and Microsoft Azure AI Foundry.
+#### [16. Cloud Provider Evaluation Platforms](sections/16_cloud_provider_evaluation_platforms.md)
+Native evaluation capabilities from major cloud providers: Google Vertex AI (trajectory-based evaluation, Gen AI Evaluation Service, framework support), AWS Bedrock (Guardrails with 88% harmful content blocking, ApplyGuardrail API, safety policies), and Microsoft Azure AI Foundry (Evaluation SDK, agent metrics, RedTeam scanning, DevOps integration). Includes provider comparison matrix.
 
-#### 17. Observability in AI Development Frameworks
-LangChain/LangGraph, CrewAI, LlamaIndex, AutoGen, DSPy, OpenAI Swarm, and Pydantic AI.
+#### [17. Observability Features in AI Development Frameworks](sections/17_observability_features_ai_frameworks.md)
+Native observability and evaluation capabilities in agent frameworks: LangChain/LangGraph (callbacks system, run trees, LangSmith integration), LlamaIndex (built-in observability, callback system), CrewAI (MLflow integration, agent interaction tracking), Semantic Kernel, and other notable frameworks. Covers framework comparison for observability capabilities.
 
-#### 18. Benchmark Suites
-AgentBench, GAIA, WebArena, SWE-Bench, and security/safety benchmarks.
+#### [18. Benchmark Suites](sections/18_benchmark_suites.md)
+Standardized evaluation benchmarks: general-purpose (GAIA with 92% human vs 65% AI accuracy, AgentBench with 8 environments), domain-specific (WebArena for web navigation, SWE-Bench for software engineering), and security-focused (AgentDojo with 97 tasks and 629 security cases, RAS-Eval, AgentHarm). Includes benchmark selection guidance.
 
 ---
 
 ### Part VIII: Best Practices & Implementation
-*(Coming Soon)*
 
-#### 19. Evaluation Strategy Design
-Defining success criteria, building evaluation portfolios, and evaluation roadmaps.
+#### [19. Evaluation Strategy Design](sections/19_evaluation_strategy_design.md)
+Systematic approach to evaluation strategy: defining success criteria through stakeholder alignment and business goal mapping, building evaluation portfolios (metric selection, test coverage planning, resource allocation), evaluation roadmap phases (prototype, pre-production, production), and team structure (evaluation engineers, cross-functional collaboration, human review teams).
 
-#### 20. Implementation Best Practices
-Starting early with evaluation, layered testing approach, simulation and sandbox testing, red-teaming, and cost optimization.
+#### [20. Implementation Best Practices](sections/20_implementation_best_practices.md)
+Actionable guidance for evaluation implementation: starting early (evaluation-driven development from day one), layered testing approach (unit tests, integration tests, end-to-end tests, system-level tests), simulation and sandbox testing (environment setup, stress testing, load testing), red-teaming and adversarial testing, and cost optimization (selective evaluation, sampling strategies, semantic caching).
 
-#### 21. Production Deployment Best Practices
-Pre-deployment checklists, gradual rollout strategies, production monitoring setup, and feedback loop implementation.
+#### [21. Production Deployment Best Practices](sections/21_production_deployment_best_practices.md)
+Complete production lifecycle guidance: pre-deployment checklist (security validation >95% injection blocked, >99.9% PII detected), gradual rollout strategies (feature flags, canary releases, blue-green deployments), production monitoring setup (dashboard configuration, alert thresholds, incident response), and feedback loop implementation (user feedback collection, automated retraining triggers).
 
 ---
 
 ### Part IX: Industry Insights & Case Studies
-*(Coming Soon)*
 
-#### 22. Industry Trends and Statistics (2026)
-Adoption landscape, key barriers, and emerging patterns.
+#### [22. Industry Trends and Statistics (2026)](sections/22_industry_trends_and_statistics.md)
+Comprehensive analysis of the 2026 AI agent landscape: adoption statistics (57% in production, 89% with observability, 52% with formal evaluation, 1,445% surge in multi-agent inquiries), key barriers (32% cite quality concerns, <25% successfully scale), and emerging patterns (multi-agent orchestration, plan-and-execute architectures, evaluation as first-class concern).
 
-#### 23. Success Patterns and Anti-Patterns
-Evaluation-first culture, hybrid evaluation models, common anti-patterns.
+#### [23. Success Patterns and Anti-Patterns](sections/23_success_patterns_and_anti_patterns.md)
+Lessons from organizations that scale successfully: success patterns (evaluation-first culture, hybrid human-AI evaluation 80/20 split, continuous monitoring, specialized agent teams) and anti-patterns to avoid ("vibe prompting" in production, ignoring non-determinism, single-metric optimization, lack of human oversight, insufficient security testing).
 
-#### 24. Use Case-Specific Evaluation
-Customer support, research and analysis, code generation, healthcare, financial services, and voice agents.
+#### [24. Use Case-Specific Evaluation](sections/24_use_case_specific_evaluation.md)
+Domain-specific evaluation frameworks for six major agent types: customer support (FCR, CSAT, containment rate), research and analysis (source quality, citation accuracy), code generation (code quality, security vulnerabilities, functional correctness), healthcare (safety compliance, policy adherence), financial services (accuracy, regulatory compliance), and voice agents (sub-1000ms latency, turn-taking quality).
 
-#### 25. Vendor and Expert Insights
-Google Cloud, Gartner, Deloitte, G2, and academic research highlights.
+#### [25. Vendor and Expert Insights](sections/25_vendor_and_expert_insights.md)
+Perspectives from industry leaders: Google Cloud's AI Agent Trends (85% employee reliance on agents by 2026, 40-minute savings per interaction at Telus), Gartner predictions (40% enterprise apps with agents by 2026), Deloitte's Agentic AI Strategy, G2 Enterprise AI Agents Report, and academic research highlights (AgentAuditor, RAS-Eval findings).
 
 ---
 
 ### Part X: Education & Resources
-*(Coming Soon)*
 
-#### 26. Learning Pathways
-Role-based pathways for product managers, developers, QA professionals, data scientists, and ethics roles.
+#### [26. Online Courses and Certifications](sections/26_online_courses_and_certifications.md)
+Curated catalog of educational resources: dedicated evaluation courses (DeepLearning.AI "Evaluating AI Agents", Udemy, Evidently AI email courses, Product School certification), AI product management certifications (Maven, Google, Microsoft), university courses (Stanford CS329T, Berkeley), platform training, and workshops. Includes detailed annotations and course selection guidance.
 
-#### 27. Online Courses and Certifications
-Dedicated evaluation courses and university programs.
-
-#### 28. Community and Continuing Education
-Podcasts, research papers, industry blogs, and professional networks.
+#### [27. Community and Continuing Education](sections/27_community_and_continuing_education.md)
+Resources for ongoing learning: podcasts (ODSC "Ai X" with Ian Cairns interviews, TWIML AI, TechnologIST), research papers and whitepapers, industry blogs (Galileo AI, Arize, Langfuse, LangChain, Anthropic, OpenAI), open-source communities (LangChain Slack, MLOps Community, Hugging Face Discord), professional networks, and conferences (NeurIPS, ICML, ODSC).
 
 ---
 
 ### Part XI: Future Directions
-*(Coming Soon)*
 
-#### 29. Research Frontiers
-Standardized benchmarks, formal verification methods, explainability advances.
+#### [28. Research Frontiers](sections/28_research_frontiers.md)
+Cutting-edge research directions: standardized benchmarks (HeroBench for long-horizon planning, Context-Bench for memory, NL2Repo-Bench for repository generation), formal verification methods (pre/postconditions, contracts, runtime monitors), explainability advances (interpretable reasoning, decision provenance), automated evaluation generation, and next-generation security (advanced adversarial defense, automated red-teaming).
 
-#### 30. Industry Predictions for 2026-2027
-Enterprise adoption, evaluation standards, regulatory frameworks.
+#### [29. Industry Predictions for 2026-2027](sections/29_industry_predictions.md)
+Authoritative predictions from Gartner, Google Cloud, and Deloitte: 40% enterprise apps with AI agents by 2026, multi-agent collaboration by 2027, $58B market disruption, evaluation standards emergence (OpenTelemetry convergence, LLM-as-Judge standardization), regulatory framework development (EU AI Act enforcement August 2026, NIST AI RMF adoption), and the evaluation imperative.
 
-#### 31. Conclusion and Recommendations
-Key takeaways, action items by role, and final recommendations.
+#### [30. Conclusion and Recommendations](sections/30_conclusion_and_recommendations.md)
+Synthesis of key takeaways and actionable next steps: the evaluation-production gap reality, evaluation as first-class concern, maturing tool landscape. Role-specific action items for executives, product managers, engineers, QA professionals, and security teams. Roadmap for building an evaluation-first organization with immediate, short-term, and long-term actions.
 
 ---
 
 ### Appendices
-*(Coming Soon)*
 
-- **Appendix A:** Comprehensive Metric Definitions Reference (80+ metrics)
-- **Appendix B:** Tool and Platform Comparison Tables
-- **Appendix C:** Example Test Cases
-- **Appendix D:** Judge Prompt Templates
-- **Appendix E:** Code Examples
-- **Appendix F:** Glossary of Terms
-- **Appendix G:** Additional Resources and References
-- **Appendix H:** Cloud Provider Feature Comparison Matrix
-- **Appendix I:** Security Benchmark Comparison
+#### [Appendix A: Comprehensive Metric Definitions Reference](sections/appendices/appendix_a_comprehensive_metric_definitions_reference.md)
+Quick-reference guide for all 80+ evaluation metrics covered in this guide. Each metric includes concise definition, measurement formula, and typical industry benchmarks from 2026 deployments. Organized by category: task completion, process quality, tool/action, outcome quality, performance, safety, security, advanced, reasoning, interaction, robustness, business, drift, and domain-specific.
+
+#### [Appendix B: Tool and Platform Comparison Tables](sections/appendices/appendix_b_tool_platform_comparison_tables.md)
+Comprehensive comparison tables for selecting the right platforms: observability platforms (open-source and commercial), evaluation frameworks, LLM-as-Judge solutions, instrumentation libraries, OpenTelemetry backends, and selection decision matrices. Includes feature comparisons, pricing considerations, and deployment options.
+
+#### [Appendix C: Judge Prompt Templates](sections/appendices/appendix_c_judge_prompt_templates.md)
+Production-ready prompt templates for LLM-as-Judge evaluation: general judge prompt structure, task completion prompts, quality assessment prompts, safety and compliance prompts, agent-specific prompts, pairwise comparison prompts, and calibration/bias mitigation guidelines. Tested with GPT-4 and Claude models.
+
+#### [Appendix D: Glossary of Terms](sections/appendices/appendix_d_glossary.md)
+Definitions for key terms used throughout this guide, organized alphabetically with cross-references to related concepts. Covers 80+ terms from A/B Testing to Zero-Shot, including agent-specific terminology (AgentBench, AgentDojo, Agentic AI), evaluation concepts (LLM-as-Judge, Forensic Loop), and technical standards (OpenTelemetry, OTLP).
+
+#### [Appendix E: Additional Resources and References](sections/appendices/appendix_e_additional_resources.md)
+Consolidated additional resources: academic papers (foundational, evaluation frameworks 2024-2025, security research, LLM-as-Judge), industry reports (State of AI Agents, Gartner, Deloitte), official documentation (evaluation frameworks, observability platforms, cloud providers, regulatory frameworks), GitHub repositories, online courses, community resources, and blogs.
+
+#### [Appendix F: Cloud Provider Feature Comparison Matrix](sections/appendices/appendix_f_cloud_provider_comparison.md)
+Detailed feature comparison matrices for AI agent evaluation across major cloud providers: Azure AI Foundry, Google Vertex AI, and AWS Bedrock. Covers overall comparison, evaluation capabilities, observability features, safety and guardrails, pricing comparison, and selection guide with decision matrix and use case recommendations.
+
+#### [Appendix G: Security Benchmark Comparison](sections/appendices/appendix_g_security_benchmark_comparison.md)
+Comprehensive analysis of AI agent security benchmarks: AgentDojo (97 tasks, 629 security cases, prompt injection focus), RAS-Eval (real-world environment testing, 85.65% attack success rate findings), AgentHarm (malicious use prevention, HarmScore/RefusalRate metrics), and comparison matrix for benchmark selection based on security evaluation needs.
 
 ---
 
@@ -178,26 +178,28 @@ Key takeaways, action items by role, and final recommendations.
 ### By Role
 
 - **Product Managers:** Start with Sections 1-3, then focus on Sections 19, 22-24 for strategy and industry context
-- **AI/ML Engineers:** Focus on Sections 4-10 for frameworks, metrics, and observability
+- **AI/ML Engineers:** Focus on Sections 4-10 for frameworks, metrics, and observability, plus Sections 14-17 for tools
 - **QA Professionals:** Prioritize Sections 11-13 for testing methodologies, then Section 18 for benchmarks
-- **Data Scientists:** Review Sections 5-8 for metrics, then Sections 14-15 for tools
-- **Security Engineers:** Focus on Section 3.4 and Section 6 for security challenges and metrics
-- **Executives:** Start with Section 1, then Sections 22-23 for industry trends and ROI insights
+- **Data Scientists:** Review Sections 5-8 for metrics, then Sections 14-15 for tools and frameworks
+- **Security Engineers:** Focus on Section 3.4, Section 6, Section 18.3, and Appendix G for security evaluation
+- **Executives:** Start with Section 1, then Sections 22-23 and 29 for industry trends and predictions
 
 ### By Objective
 
-- **Building a new agent evaluation system:** Sections 4, 5, 9, 11, 19
-- **Improving existing evaluation:** Sections 3, 8, 12, 20
-- **Security hardening:** Sections 3.4, 6, 18.5, 20.4
+- **Building a new agent evaluation system:** Sections 4, 5, 9, 11, 19, and Appendices A-C
+- **Improving existing evaluation:** Sections 3, 8, 12, 20, and Section 23
+- **Security hardening:** Sections 3.4, 6, 18.3, 20.4, and Appendix G
 - **Production monitoring setup:** Sections 9, 10, 14, 21
+- **Selecting tools and platforms:** Sections 14-17 and Appendix B
+- **Learning and training:** Sections 26-27
 
 ---
 
 ## Additional Resources
 
-- [Master References (CSV)](master_references.csv) - Complete bibliography with 80+ citations
-- Glossary *(Coming Soon)*
-- Quick Start Guide *(Coming Soon)*
+- [Master References (CSV)](master_references.csv) - Complete bibliography with deduplicated citations
+- [Glossary](sections/appendices/appendix_d_glossary.md) - Technical terms and definitions
+- [Cloud Provider Comparison](sections/appendices/appendix_f_cloud_provider_comparison.md) - Azure, GCP, AWS feature matrix
 
 ---
 
@@ -206,8 +208,10 @@ Key takeaways, action items by role, and final recommendations.
 See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
 **Current Version:** 2.0 (January 2026)
-- Part I: Foundations & Context (Sections 1-2) - Complete
-- Part II: The Challenge Landscape (Section 3) - Complete
+- All 30 sections complete
+- All 7 appendices complete
+- 80+ metrics documented
+- 40+ tools and platforms reviewed
 
 ---
 
