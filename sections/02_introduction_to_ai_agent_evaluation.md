@@ -531,4 +531,4 @@ The remainder of this guide provides the frameworks, metrics, tools, and best pr
 ---
 
 **Navigation:**
-← [Previous Section: Executive Summary](01_executive_summary.md) | [Table of Contents](../README.md) | Next Section: Critical Evaluation Gaps and Challenges →
+← [Previous Section: Summary](01_summary.md) | [Table of Contents](../README.md) | Next Section: Critical Evaluation Gaps and Challenges →

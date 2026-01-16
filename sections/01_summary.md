@@ -1,4 +1,4 @@
-# Section 1: Executive Summary
+# Section 1: Summary
 
 > **Part I**: Foundations & Context
 > **Estimated Reading Time**: 8 minutes
@@ -210,7 +210,7 @@ This guide provides a comprehensive, evidence-based framework for evaluating, mo
 
 ### Part I: Foundations & Context (Current Section)
 
-**Section 1**: Executive Summary — This section
+**Section 1**: Summary — This section
 **Section 2**: Introduction to AI Agent Evaluation — Explores what makes agents fundamentally different, the evolution from 2023-2026, and stakeholder-specific evaluation needs
 
 ### Part II: The Challenge Landscape
