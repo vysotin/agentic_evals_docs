@@ -203,18 +203,6 @@ Comprehensive analysis of AI agent security benchmarks: AgentDojo (97 tasks, 629
 
 ---
 
-## Version History
-
-See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
-
-**Current Version:** 2.0 (January 2026)
-- All 30 sections complete
-- All 7 appendices complete
-- 80+ metrics documented
-- 40+ tools and platforms reviewed
-
----
-
 ## License and Attribution
 
 This guide synthesizes research from 40+ industry sources, academic papers, and practitioner insights. All sources are cited within each section and compiled in the master references file.
